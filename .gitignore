@@ -1,3 +1,5 @@
 /build
 /.regolith
 *.py
+packs/Aseprite/
+packs/Changelog.txt
