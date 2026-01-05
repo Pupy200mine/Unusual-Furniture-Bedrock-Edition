@@ -1,0 +1,151 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "unusual_furniture:birch_bench",
+      "menu_category": {
+        "category": "construction"
+      },
+      "states": {
+        "unusual_furniture:north_direction": [
+          "north",
+          "east",
+          "south",
+          "west",
+          "none"
+        ],
+        "unusual_furniture:east_direction": [
+          "north",
+          "east",
+          "south",
+          "west",
+          "none"
+        ],
+        "unusual_furniture:south_direction": [
+          "north",
+          "east",
+          "south",
+          "west",
+          "none"
+        ],
+        "unusual_furniture:west_direction": [
+          "north",
+          "east",
+          "south",
+          "west",
+          "none"
+        ]
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:cardinal_direction"
+          ],
+          "y_rotation_offset": 180
+        }
+      }
+    },
+    "components": {
+      "minecraft:geometry": {
+        "identifier": "geometry.unusual_furniture.bench",
+        "bone_visibility": {
+          "park_bench": "((q.block_state('minecraft:cardinal_direction') == 'north' && (q.block_state('unusual_furniture:west_direction') == 'none' || q.block_state('unusual_furniture:west_direction') != 'north') && (q.block_state('unusual_furniture:east_direction') == 'none' || q.block_state('unusual_furniture:east_direction') != 'north')) || (q.block_state('minecraft:cardinal_direction') == 'east' && (q.block_state('unusual_furniture:north_direction') == 'none' || q.block_state('unusual_furniture:north_direction') != 'east') && (q.block_state('unusual_furniture:south_direction') == 'none' || q.block_state('unusual_furniture:south_direction') != 'east')) || (q.block_state('minecraft:cardinal_direction') == 'south' && (q.block_state('unusual_furniture:east_direction') == 'none' || q.block_state('unusual_furniture:east_direction') != 'south') && (q.block_state('unusual_furniture:west_direction') == 'none' || q.block_state('unusual_furniture:west_direction') != 'south')) || (q.block_state('minecraft:cardinal_direction') == 'west' && (q.block_state('unusual_furniture:south_direction') == 'none' || q.block_state('unusual_furniture:south_direction') != 'west') && (q.block_state('unusual_furniture:north_direction') == 'none' || q.block_state('unusual_furniture:north_direction') != 'west')))",
+          "left_right": "((q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('unusual_furniture:west_direction') == 'north' && q.block_state('unusual_furniture:east_direction') == 'north') || (q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('unusual_furniture:north_direction') == 'east' && q.block_state('unusual_furniture:south_direction') == 'east') || (q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('unusual_furniture:east_direction') == 'south' && q.block_state('unusual_furniture:west_direction') == 'south') || (q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('unusual_furniture:south_direction') == 'west' && q.block_state('unusual_furniture:north_direction') == 'west'))",
+          "right": "((q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('unusual_furniture:west_direction') == 'north' && (q.block_state('unusual_furniture:east_direction') == 'none' || q.block_state('unusual_furniture:east_direction') != 'north')) || (q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('unusual_furniture:north_direction') == 'east' && (q.block_state('unusual_furniture:south_direction') == 'none' || q.block_state('unusual_furniture:south_direction') != 'east')) || (q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('unusual_furniture:east_direction') == 'south' && (q.block_state('unusual_furniture:west_direction') == 'none' || q.block_state('unusual_furniture:west_direction') != 'south')) || (q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('unusual_furniture:south_direction') == 'west' && (q.block_state('unusual_furniture:north_direction') == 'none' || q.block_state('unusual_furniture:north_direction') != 'west')))",
+          "left": "((q.block_state('minecraft:cardinal_direction') == 'north' && (q.block_state('unusual_furniture:west_direction') == 'none' || q.block_state('unusual_furniture:west_direction') != 'north') && q.block_state('unusual_furniture:east_direction') == 'north') || (q.block_state('minecraft:cardinal_direction') == 'east' && (q.block_state('unusual_furniture:north_direction') == 'none' || q.block_state('unusual_furniture:north_direction') != 'east') && q.block_state('unusual_furniture:south_direction') == 'east') || (q.block_state('minecraft:cardinal_direction') == 'south' && (q.block_state('unusual_furniture:east_direction') == 'none' || q.block_state('unusual_furniture:east_direction') != 'south') && q.block_state('unusual_furniture:west_direction') == 'south') || (q.block_state('minecraft:cardinal_direction') == 'west' && (q.block_state('unusual_furniture:south_direction') == 'none' || q.block_state('unusual_furniture:south_direction') != 'west') && q.block_state('unusual_furniture:north_direction') == 'west'))"
+        }
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "bench_birch",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:flammable": true,
+      "minecraft:custom_components": [
+        "unusual_furniture:bench",
+        "unusual_furniture:sit_interact"
+      ],
+      "minecraft:destructible_by_explosion": true,
+      "tag:minecraft:is_axe_item_destructible": {},
+      "tag:unusual_furniture:bench": {},
+      "minecraft:collision_box": {
+        "origin": [
+          -8,
+          0,
+          -7
+        ],
+        "size": [
+          16,
+          8,
+          15
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -8,
+          0,
+          -7
+        ],
+        "size": [
+          16,
+          8,
+          15
+        ]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.5
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              90,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              180,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              -90,
+              0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

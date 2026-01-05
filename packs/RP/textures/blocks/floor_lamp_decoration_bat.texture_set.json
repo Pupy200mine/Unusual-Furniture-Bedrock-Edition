@@ -1,0 +1,7 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "floor_lamp_decoration_bat",
+		"metalness_emissive_roughness": "floor_lamp_decoration_bat_mer"
+	}
+}

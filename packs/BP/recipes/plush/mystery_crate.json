@@ -1,0 +1,41 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:mystery_crate"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:clock"
+      },
+      {
+        "tag": "minecraft:wooden_slabs"
+      },
+      {
+        "item": "unusual_furniture:screw"
+      }
+    ],
+    "pattern": [
+      "RSR",
+      "SAS",
+      "RSR"
+    ],
+    "key": {
+      "R": {
+        "item": "unusual_furniture:screw"
+      },
+      "S": {
+        "tag": "minecraft:planks"
+      },
+      "A": {
+        "item": "minecraft:wool"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:mystery_crate"
+    }
+  }
+}

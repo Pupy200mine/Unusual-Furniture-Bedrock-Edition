@@ -1,0 +1,77 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unusual_furniture.manhole",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "closed",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 14, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 2]},
+								"east": {"uv": [0, 0], "uv_size": [16, 2]},
+								"south": {"uv": [0, 0], "uv_size": [16, 2]},
+								"west": {"uv": [0, 0], "uv_size": [16, 2]},
+								"up": {"uv": [16, 16], "uv_size": [-16, -16], "uv_rotation": 180},
+								"down": {"uv": [16, 16], "uv_size": [-16, -16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "open",
+					"pivot": [8, 0, -8],
+					"cubes": [
+						{
+							"origin": [0, 16, -2],
+							"size": [12, 2, 12],
+							"pivot": [13, 16, -3],
+							"rotation": [0, 22.5, 0],
+							"uv": {
+								"north": {"uv": [2, 2], "uv_size": [12, 2], "material_instance": "manhole"},
+								"east": {"uv": [2, 2], "uv_size": [12, 2], "material_instance": "manhole"},
+								"south": {"uv": [2, 2], "uv_size": [12, 2], "material_instance": "manhole"},
+								"west": {"uv": [2, 2], "uv_size": [12, 2], "material_instance": "manhole"},
+								"up": {"uv": [14, 14], "uv_size": [-12, -12], "material_instance": "manhole"},
+								"down": {"uv": [14, 14], "uv_size": [-12, -12], "material_instance": "manhole"}
+							}
+						},
+						{
+							"origin": [-8, 14, -8],
+							"size": [16, 2, 16],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 2], "material_instance": "manhole_open"},
+								"east": {"uv": [0, 0], "uv_size": [16, 2], "material_instance": "manhole_open"},
+								"south": {"uv": [0, 0], "uv_size": [16, 2], "material_instance": "manhole_open"},
+								"west": {"uv": [0, 0], "uv_size": [16, 2], "material_instance": "manhole_open"},
+								"up": {"uv": [16, 16], "uv_size": [-16, -16], "uv_rotation": 180, "material_instance": "manhole_open"},
+								"down": {"uv": [16, 16], "uv_size": [-16, -16], "material_instance": "manhole_open"}
+							}
+						},
+						{
+							"origin": [6, 16, 6],
+							"size": [-12, -2, -12],
+							"uv": {
+								"north": {"uv": [2, 0], "uv_size": [12, 2]},
+								"east": {"uv": [2, 0], "uv_size": [12, 2]},
+								"south": {"uv": [2, 0], "uv_size": [12, 2]},
+								"west": {"uv": [2, 0], "uv_size": [12, 2]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

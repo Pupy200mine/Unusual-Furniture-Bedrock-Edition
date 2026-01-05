@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:crimson_beam"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:stripped_crimson_stem"
+      }
+    ],
+    "pattern": [
+      "S",
+      "S"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stripped_crimson_stem"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:crimson_beam",
+      "count": 8
+    }
+  }
+}

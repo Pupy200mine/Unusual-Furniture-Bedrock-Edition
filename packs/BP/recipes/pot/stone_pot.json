@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:stone_pot"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:stone"
+      }
+    ],
+    "pattern": [
+      " S ",
+      "S S",
+      " S "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stone"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:stone_pot"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "unusual_furniture:iron_beam",
+            "menu_category": {
+                "category": "construction"
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 180
+                }
+            },
+            "states": {
+                "unusual_furniture:up_right": [
+                    false,
+                    true
+                ],
+                "unusual_furniture:up_left": [
+                    false,
+                    true
+                ],
+                "unusual_furniture:down_right": [
+                    false,
+                    true
+                ],
+                "unusual_furniture:down_left": [
+                    false,
+                    true
+                ]
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.unusual_furniture.iron_beam"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "iron_beam"
+                }
+            },
+            "minecraft:flammable": true,
+            "minecraft:destructible_by_explosion": true,
+            "tag:minecraft:is_pickaxe_item_destructible": {},
+            "tag:unusual_furniture:iron_beam": {},
+            "minecraft:collision_box": {
+                "origin": [
+                    -2,
+                    0,
+                    -2
+                ],
+                "size": [
+                    4,
+                    16,
+                    4
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -2,
+                    0,
+                    -2
+                ],
+                "size": [
+                    4,
+                    16,
+                    4
+                ]
+            },
+            "tag:unusual_furniture:no_particles": {},
+            "tag:minecraft:dirt": {},
+            "tag:dirt": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 5
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north' || q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west' || q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

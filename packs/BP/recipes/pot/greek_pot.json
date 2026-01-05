@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:greek_pot"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:quartz"
+      },
+      {
+        "item": "minecraft:lapis_lazuli"
+      }
+    ],
+    "pattern": [
+      " S ",
+      "SAS",
+      " S "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:quartz"
+      },
+      "A": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:greek_pot"
+    }
+  }
+}

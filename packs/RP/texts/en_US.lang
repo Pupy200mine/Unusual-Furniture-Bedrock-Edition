@@ -1,0 +1,354 @@
+pack.name=Unusual Furniture - Bedrock Edition RP
+pack.description=Vanilla styled furniture add-on!
+item.unusual_furniture:tropical_plant=Bag of Tropical Plants
+
+unusual_furniture:itemGroup.name.table= - Tables
+unusual_furniture:itemGroup.name.coffee_table= - Coffee Tables
+unusual_furniture:itemGroup.name.chair= - Chairs
+unusual_furniture:itemGroup.name.sofa= - Sofas
+unusual_furniture:itemGroup.name.stool= - Stools
+unusual_furniture:itemGroup.name.ceiling_lamp= - Ceiling Lamps
+unusual_furniture:itemGroup.name.drawer= - Drawers
+unusual_furniture:itemGroup.name.bench= - Benches
+unusual_furniture:itemGroup.name.pot= - Pots
+unusual_furniture:itemGroup.name.barrier= - Barriers
+unusual_furniture:itemGroup.name.open_riser_stairs= - Open Riser Stairs
+unusual_furniture:itemGroup.name.railing= - Railings
+unusual_furniture:itemGroup.name.beam= - Beams
+unusual_furniture:itemGroup.name.carved= - Carved Blocks
+unusual_furniture:itemGroup.name.shelf= - Shelves
+unusual_furniture:itemGroup.name.plush= - Plushies
+unusual_furniture:itemGroup.name.curtain= - Curtains
+unusual_furniture:itemGroup.name.lamp_decoration= - Lamp Decorations
+unusual_furniture:itemGroup.name.bag_plants= - Bags of Plants & Pebbles
+unusual_furniture:itemGroup.name.miscellaneous= - Miscellaneous
+unusual_furniture:itemGroup.name.spooky= - Halloween Decorations
+
+##Orden: "Oak", "Spruce", "Birch", "Jungle", "Acacia", "Dark Oak", "Mangrove", "Cherry", "Bamboo", "Crimson", "Warped"
+
+
+##Tables
+tile.unusual_furniture:oak_table.name=Oak Table
+tile.unusual_furniture:spruce_table.name=Spruce Table
+tile.unusual_furniture:birch_table.name=Birch Table
+tile.unusual_furniture:jungle_table.name=Jungle Table
+tile.unusual_furniture:acacia_table.name=Acacia Table
+tile.unusual_furniture:dark_oak_table.name=Dark Oak Table
+tile.unusual_furniture:mangrove_table.name=Mangrove Table
+tile.unusual_furniture:cherry_table.name=Cherry Table
+tile.unusual_furniture:bamboo_table.name=Bamboo Table
+tile.unusual_furniture:crimson_table.name=Crimson Table
+tile.unusual_furniture:warped_table.name=Warped Table
+
+tile.unusual_furniture:industrial_table.name=Industrial Table
+
+##Coffee Tables
+tile.unusual_furniture:oak_coffee_table.name=Oak Coffee Table
+tile.unusual_furniture:spruce_coffee_table.name=Spruce Coffee Table
+tile.unusual_furniture:birch_coffee_table.name=Birch Coffee Table
+tile.unusual_furniture:jungle_coffee_table.name=Jungle Coffee Table
+tile.unusual_furniture:acacia_coffee_table.name=Acacia Coffee Table
+tile.unusual_furniture:dark_oak_coffee_table.name=Dark Oak Coffee Table
+tile.unusual_furniture:mangrove_coffee_table.name=Mangrove Coffee Table
+tile.unusual_furniture:cherry_coffee_table.name=Cherry Coffee Table
+tile.unusual_furniture:bamboo_coffee_table.name=Bamboo Coffee Table
+tile.unusual_furniture:crimson_coffee_table.name=Crimson Coffee Table
+tile.unusual_furniture:warped_coffee_table.name=Warped Coffee Table
+
+tile.unusual_furniture:industrial_coffee_table.name=Industrial Coffee Table
+
+##Chairs
+tile.unusual_furniture:oak_chair.name=Oak Chair
+tile.unusual_furniture:spruce_chair.name=Spruce Chair
+tile.unusual_furniture:birch_chair.name=Birch Chair
+tile.unusual_furniture:jungle_chair.name=Jungle Chair
+tile.unusual_furniture:acacia_chair.name=Acacia Chair
+tile.unusual_furniture:dark_oak_chair.name=Dark Oak Chair
+tile.unusual_furniture:mangrove_chair.name=Mangrove Chair
+tile.unusual_furniture:cherry_chair.name=Cherry Chair
+tile.unusual_furniture:bamboo_chair.name=Bamboo Chair
+tile.unusual_furniture:crimson_chair.name=Crimson Chair
+tile.unusual_furniture:warped_chair.name=Warped Chair
+
+##Stools
+tile.unusual_furniture:oak_stool.name=Oak Stool
+tile.unusual_furniture:spruce_stool.name=Spruce Stool
+tile.unusual_furniture:birch_stool.name=Birch Stool
+tile.unusual_furniture:jungle_stool.name=Jungle Stool
+tile.unusual_furniture:acacia_stool.name=Acacia Stool
+tile.unusual_furniture:dark_oak_stool.name=Dark Oak Stool
+tile.unusual_furniture:mangrove_stool.name=Mangrove Stool
+tile.unusual_furniture:cherry_stool.name=Cherry Stool
+tile.unusual_furniture:bamboo_stool.name=Bamboo Stool
+tile.unusual_furniture:crimson_stool.name=Crimson Stool
+tile.unusual_furniture:warped_stool.name=Warped Stool
+
+##Sofas
+##Orden: "white", "light_gray", "gray", "black", "brown", "red", "orange", "yellow", "lime", "green", "cyan", "light_blue", "blue", "purple", "magenta", "pink"
+
+tile.unusual_furniture:white_sofa.name=White Sofa
+tile.unusual_furniture:light_gray_sofa.name=Light Gray Sofa
+tile.unusual_furniture:gray_sofa.name=Gray Sofa
+tile.unusual_furniture:black_sofa.name=Black Sofa
+tile.unusual_furniture:brown_sofa.name=Brown Sofa
+tile.unusual_furniture:red_sofa.name=Red Sofa
+tile.unusual_furniture:orange_sofa.name=Orange Sofa
+tile.unusual_furniture:yellow_sofa.name=Yellow Sofa
+tile.unusual_furniture:lime_sofa.name=Lime Sofa
+tile.unusual_furniture:green_sofa.name=Green Sofa
+tile.unusual_furniture:cyan_sofa.name=Cyan Sofa
+tile.unusual_furniture:light_blue_sofa.name=Light Blue Sofa
+tile.unusual_furniture:blue_sofa.name=Blue Sofa
+tile.unusual_furniture:purple_sofa.name=Purple Sofa
+tile.unusual_furniture:magenta_sofa.name=Magenta Sofa
+tile.unusual_furniture:pink_sofa.name=Pink Sofa
+
+##Ceiling Lamps
+tile.unusual_furniture:oak_ceiling_lamp.name=Oak Ceiling Lamp
+tile.unusual_furniture:spruce_ceiling_lamp.name=Spruce Ceiling Lamp
+tile.unusual_furniture:birch_ceiling_lamp.name=Birch Ceiling Lamp
+tile.unusual_furniture:jungle_ceiling_lamp.name=Jungle Ceiling Lamp
+tile.unusual_furniture:acacia_ceiling_lamp.name=Acacia Ceiling Lamp
+tile.unusual_furniture:dark_oak_ceiling_lamp.name=Dark Oak Ceiling Lamp
+tile.unusual_furniture:mangrove_ceiling_lamp.name=Mangrove Ceiling Lamp
+tile.unusual_furniture:cherry_ceiling_lamp.name=Cherry Ceiling Lamp
+tile.unusual_furniture:bamboo_ceiling_lamp.name=Bamboo Ceiling Lamp
+tile.unusual_furniture:crimson_ceiling_lamp.name=Crimson Ceiling Lamp
+tile.unusual_furniture:warped_ceiling_lamp.name=Warped Ceiling Lamp
+tile.unusual_furniture:copper_ceiling_lamp.name=Copper Ceiling Lamp
+
+##Drawers
+tile.unusual_furniture:oak_drawer.name=Oak Drawer
+tile.unusual_furniture:spruce_drawer.name=Spruce Drawer
+tile.unusual_furniture:birch_drawer.name=Birch Drawer
+tile.unusual_furniture:jungle_drawer.name=Jungle Drawer
+tile.unusual_furniture:acacia_drawer.name=Acacia Drawer
+tile.unusual_furniture:dark_oak_drawer.name=Dark Oak Drawer
+tile.unusual_furniture:mangrove_drawer.name=Mangrove Drawer
+tile.unusual_furniture:cherry_drawer.name=Cherry Drawer
+tile.unusual_furniture:bamboo_drawer.name=Bamboo Drawer
+tile.unusual_furniture:crimson_drawer.name=Crimson Drawer
+tile.unusual_furniture:warped_drawer.name=Warped Drawer
+
+##Benches
+tile.unusual_furniture:oak_bench.name=Oak Bench
+tile.unusual_furniture:spruce_bench.name=Spruce Bench
+tile.unusual_furniture:birch_bench.name=Birch Bench
+tile.unusual_furniture:jungle_bench.name=Jungle Bench
+tile.unusual_furniture:acacia_bench.name=Acacia Bench
+tile.unusual_furniture:dark_oak_bench.name=Dark Oak Bench
+tile.unusual_furniture:mangrove_bench.name=Mangrove Bench
+tile.unusual_furniture:cherry_bench.name=Cherry Bench
+tile.unusual_furniture:bamboo_bench.name=Bamboo Bench
+tile.unusual_furniture:crimson_bench.name=Crimson Bench
+tile.unusual_furniture:warped_bench.name=Warped Bench
+
+##Pots
+tile.unusual_furniture:greek_pot.name=Greek Pot
+tile.unusual_furniture:huge_pot.name=Huge Pot
+tile.unusual_furniture:stone_pot.name=Stone Pot
+tile.unusual_furniture:tall_clay_pot.name=Tall Terracotta Pot
+tile.unusual_furniture:vintage_flower_pot.name=Bauhaus Pot
+tile.unusual_furniture:blackstone_pot.name=Blackstone Pot
+tile.unusual_furniture:fudge_pot.name=Fudge Pot
+tile.unusual_furniture:hanging_pot.name=Hanging Pot
+
+tile.unusual_furniture:large_hanging_pot.name=Large Hanging Pot
+
+tile.unusual_furniture:wooden_hanging_pot.name=Wooden Hanging Pot
+
+item.unusual_furniture:poster=Poster
+tile.unusual_furniture:trash.name=Trash
+tile.unusual_furniture:fire_hydrant.name=Fire Hydrant
+tile.unusual_furniture:emergency_fire_hydrant.name=Emergency Fire Hydrant
+tile.unusual_furniture:manhole.name=Manhole
+tile.unusual_furniture:decorative_toolbox.name=Toolbox
+
+##Barriers
+tile.unusual_furniture:warning_barrier.name=Warning Barrier
+tile.unusual_furniture:road_works_barrier.name=Works Barrier
+tile.unusual_furniture:danger_barrier.name=Danger Barrier
+tile.unusual_furniture:wooden_barrier.name=Wooden Barrier
+tile.unusual_furniture:blackboard_menu.name=Blackboard Menu
+
+##Carved
+tile.unusual_furniture:carved_oak.name=Carved Oak
+tile.unusual_furniture:carved_spruce.name=Carved Spruce
+tile.unusual_furniture:carved_birch.name=Carved Birch
+tile.unusual_furniture:carved_jungle.name=Carved Jungle
+tile.unusual_furniture:carved_acacia.name=Carved Acacia
+tile.unusual_furniture:carved_dark_oak.name=Carved Dark Oak
+tile.unusual_furniture:carved_mangrove.name=Carved Mangrove
+tile.unusual_furniture:carved_cherry.name=Carved Cherry
+tile.unusual_furniture:carved_bamboo.name=Carved Bamboo
+tile.unusual_furniture:carved_crimson.name=Carved Crimson
+tile.unusual_furniture:carved_warped.name=Carved Warped
+
+##Open Riser Stairs
+tile.unusual_furniture:oak_open_riser_stairs.name=Oak Open Riser Stairs
+tile.unusual_furniture:spruce_open_riser_stairs.name=Spruce Open Riser Stairs
+tile.unusual_furniture:birch_open_riser_stairs.name=Birch Open Riser Stairs
+tile.unusual_furniture:jungle_open_riser_stairs.name=Jungle Open Riser Stairs
+tile.unusual_furniture:acacia_open_riser_stairs.name=Acacia Open Riser Stairs
+tile.unusual_furniture:dark_oak_open_riser_stairs.name=Dark Oak Open Riser Stairs
+tile.unusual_furniture:mangrove_open_riser_stairs.name=Mangrove Open Riser Stairs
+tile.unusual_furniture:cherry_open_riser_stairs.name=Cherry Open Riser Stairs
+tile.unusual_furniture:bamboo_open_riser_stairs.name=Bamboo Open Riser Stairs
+tile.unusual_furniture:crimson_open_riser_stairs.name=Crimson Open Riser Stairs
+tile.unusual_furniture:warped_open_riser_stairs.name=Warped Open Riser Stairs
+
+##Railings
+tile.unusual_furniture:oak_railing.name=Oak Railing
+tile.unusual_furniture:spruce_railing.name=Spruce Railing
+tile.unusual_furniture:birch_railing.name=Birch Railing
+tile.unusual_furniture:jungle_railing.name=Jungle Railing
+tile.unusual_furniture:acacia_railing.name=Acacia Railing
+tile.unusual_furniture:dark_oak_railing.name=Dark Oak Railing
+tile.unusual_furniture:mangrove_railing.name=Mangrove Railing
+tile.unusual_furniture:cherry_railing.name=Cherry Railing
+tile.unusual_furniture:bamboo_railing.name=Bamboo Railing
+tile.unusual_furniture:crimson_railing.name=Crimson Railing
+tile.unusual_furniture:warped_railing.name=Warped Railing
+tile.unusual_furniture:decorated_iron_beam.name=Decorated Iron Beam
+tile.unusual_furniture:iron_beam.name=Iron Beam
+
+##Beams
+tile.unusual_furniture:oak_beam.name=Oak Beam
+tile.unusual_furniture:spruce_beam.name=Spruce Beam
+tile.unusual_furniture:birch_beam.name=Birch Beam
+tile.unusual_furniture:jungle_beam.name=Jungle Beam
+tile.unusual_furniture:acacia_beam.name=Acacia Beam
+tile.unusual_furniture:dark_oak_beam.name=Dark Oak Beam
+tile.unusual_furniture:mangrove_beam.name=Mangrove Beam
+tile.unusual_furniture:cherry_beam.name=Cherry Beam
+tile.unusual_furniture:bamboo_beam.name=Bamboo Beam
+tile.unusual_furniture:crimson_beam.name=Crimson Beam
+tile.unusual_furniture:warped_beam.name=Warped Beam
+
+##Lamp decorations
+tile.unusual_furniture:floor_lamp_decoration_villager.name=Floor Lamp Decoration
+tile.unusual_furniture:floor_lamp_decoration_bat.name=Floor Lamp Decoration
+tile.unusual_furniture:iron_lamp.name=Street Lantern
+tile.unusual_furniture:sphere_lamp.name=Sphere Lantern
+
+##Curtains
+tile.unusual_furniture:white_curtain.name=White Curtain
+tile.unusual_furniture:light_gray_curtain.name=Light Gray Curtain
+tile.unusual_furniture:gray_curtain.name=Gray Curtain
+tile.unusual_furniture:black_curtain.name=Black Curtain
+tile.unusual_furniture:brown_curtain.name=Brown Curtain
+tile.unusual_furniture:red_curtain.name=Red Curtain
+tile.unusual_furniture:orange_curtain.name=Orange Curtain
+tile.unusual_furniture:yellow_curtain.name=Yellow Curtain
+tile.unusual_furniture:lime_curtain.name=Lime Curtain
+tile.unusual_furniture:green_curtain.name=Green Curtain
+tile.unusual_furniture:cyan_curtain.name=Cyan Curtain
+tile.unusual_furniture:light_blue_curtain.name=Light Blue Curtain
+tile.unusual_furniture:blue_curtain.name=Blue Curtain
+tile.unusual_furniture:purple_curtain.name=Purple Curtain
+tile.unusual_furniture:magenta_curtain.name=Magenta Curtain
+tile.unusual_furniture:pink_curtain.name=Pink Curtain
+
+##Shelves
+tile.unusual_furniture:oak_shelf.name=Oak Shelf
+tile.unusual_furniture:spruce_shelf.name=Spruce Shelf
+tile.unusual_furniture:birch_shelf.name=Birch Shelf
+tile.unusual_furniture:jungle_shelf.name=Jungle Shelf
+tile.unusual_furniture:acacia_shelf.name=Acacia Shelf
+tile.unusual_furniture:dark_oak_shelf.name=Dark Oak Shelf
+tile.unusual_furniture:mangrove_shelf.name=Mangrove Shelf
+tile.unusual_furniture:cherry_shelf.name=Cherry Shelf
+tile.unusual_furniture:bamboo_shelf.name=Bamboo Shelf
+tile.unusual_furniture:warped_shelf.name=Warped Shelf
+tile.unusual_furniture:crimson_shelf.name=Crimson Shelf
+
+##Plushies & other
+tile.unusual_furniture:wooden_clock.name=Wooden Clock
+tile.unusual_furniture:spruce_floor_lamp.name=Wooden Floor Lamp
+tile.unusual_furniture:pig_plush.name=Pig Plush
+tile.unusual_furniture:cow_plush.name=Cow Plush
+tile.unusual_furniture:cat_plush.name=Cat Plush
+tile.unusual_furniture:mystery_crate.name=Mystery Furniture Crate
+
+##Bags of plants & pebbles
+item.unusual_furniture:tropical_plants=Bag of Tropical Plants
+item.unusual_furniture:mushroom_patch=Bag of Mushrooms
+item.unusual_furniture:water_plants=Bag of Water Plants
+item.unusual_furniture:pebble_bag=Bag of Pebbles
+tile.unusual_furniture:tropical_plant_block.name=Tropical Plant Block
+tile.unusual_furniture:mushroom_patch_block.name=Mushroom Patch Block
+tile.unusual_furniture:water_plants_block.name=Water Plant Block
+tile.unusual_furniture:pebble_bag_block.name=Pebble Block
+
+##Glass
+tile.unusual_furniture:glass_pane.name=Glass Pane
+tile.unusual_furniture:white_stained_glass_pane.name=White Stained Glass Pane
+tile.unusual_furniture:light_gray_stained_glass_pane.name=Light Gray Stained Glass Pane
+tile.unusual_furniture:gray_stained_glass_pane.name=Gray Stained Glass Pane
+tile.unusual_furniture:black_stained_glass_pane.name=Black Stained Glass Pane
+tile.unusual_furniture:brown_stained_glass_pane.name=Brown Stained Glass Pane
+tile.unusual_furniture:red_stained_glass_pane.name=Red Stained Glass Pane
+tile.unusual_furniture:orange_stained_glass_pane.name=Orange Stained Glass Pane
+tile.unusual_furniture:yellow_stained_glass_pane.name=Yellow Stained Glass Pane
+tile.unusual_furniture:lime_stained_glass_pane.name=Lime Stained Glass Pane
+tile.unusual_furniture:green_stained_glass_pane.name=Green Stained Glass Pane
+tile.unusual_furniture:cyan_stained_glass_pane.name=Cyan Stained Glass Pane
+tile.unusual_furniture:light_blue_stained_glass_pane.name=Light Blue Stained Glass Pane
+tile.unusual_furniture:blue_stained_glass_pane.name=Blue Stained Glass Pane
+tile.unusual_furniture:purple_stained_glass_pane.name=Purple Stained Glass Pane
+tile.unusual_furniture:magenta_stained_glass_pane.name=Magenta Stained Glass Pane
+tile.unusual_furniture:pink_stained_glass_pane.name=Pink Stained Glass Pane
+
+tile.unusual_furniture:broom.name=Broom
+tile.unusual_furniture:rakes.name=Rakes
+tile.unusual_furniture:grave_broken.name=Grave (Broken)
+tile.unusual_furniture:grave_creeper.name=Grave (Creeper)
+tile.unusual_furniture:grave_skeleton.name=Grave (Skeleton)
+
+action.hint.exit.unusual_furniture:sit=Jump or crouch to exit
+action.hint.exit.unusual_furniture:sit2=Jump or crouch to exit
+action.hint.exit.unusual_furniture:sit3=Jump or crouch to exit
+action.hint.exit.unusual_furniture:sit4=Jump or crouch to exit
+action.hint.exit.unusual_furniture:sit5=Jump or crouch to exit
+
+entity.unusual_furniture:sit.name=Sit
+entity.unusual_furniture:sit2.name=Sit
+entity.unusual_furniture:sit3.name=Sit
+entity.unusual_furniture:sit4.name=Sit
+entity.unusual_furniture:sit5.name=Sit
+
+entity.unusual_furniture:inventory_27.name=Inventory
+entity.unusual_furniture:inventory_table.name=Inventory Table
+entity.unusual_furniture:nothing.name=Nothing
+
+item.unusual_furniture:unusual_furniture_book= - Credits
+item.unusual_furniture:unusual_furniture_recipes_book= - Recipes
+
+book.unusual_furniture.body=Recipes for all the blocks and items.
+
+book.unusual_furniture.ingredients=Ingredients: §7§l\n%s
+
+book.unusual_furniture.tables=Tables
+book.unusual_furniture.coffee_tables=Coffee Tables
+book.unusual_furniture.chairs=Chairs
+book.unusual_furniture.stools=Stools
+book.unusual_furniture.sofas=Sofas
+book.unusual_furniture.ceiling_lamps=Ceiling Lamps
+book.unusual_furniture.drawers=Drawers
+book.unusual_furniture.benches=Benches
+book.unusual_furniture.pots=Pots
+book.unusual_furniture.barriers=Barriers
+book.unusual_furniture.open_riser_stairs=Open Riser Stairs
+book.unusual_furniture.railings=Railings
+book.unusual_furniture.beams=Beams
+book.unusual_furniture.carved=Carved Blocks
+book.unusual_furniture.shelves=Shelves
+book.unusual_furniture.curtains=Curtains
+book.unusual_furniture.lamp_decorations=Lamp Decorations
+book.unusual_furniture.bags=Bags of Plants & Pebbles
+book.unusual_furniture.miscellaneous=Miscellaneous
+book.unusual_furniture.spooky=Halloween Decorations
+
+book.unusual_furniture.this_book=To craft this book you need:\n- 1 Book\n- 1 Planks*\n\n\n*Any type\n\n\n\n\n\n\n\n\n\n\n\n
+
+book.unusual_furniture.entry=Recipe for %%s: \n%%s

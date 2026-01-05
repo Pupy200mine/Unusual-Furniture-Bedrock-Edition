@@ -1,0 +1,68 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.item.unusual_furniture.unused",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "baseplate",
+					"pivot": [0, 7, 0],
+					"rotation": [-90, 0, 180],
+					"locators": {
+						"locator": [0, 2, 0]
+					}
+				},
+				{
+					"name": "waist",
+					"parent": "baseplate",
+					"pivot": [0, 2, 0]
+				},
+				{
+					"name": "body",
+					"parent": "waist",
+					"pivot": [0, 2, 0]
+				},
+				{
+					"name": "leftarm",
+					"parent": "body",
+					"pivot": [0, 2, 0]
+				},
+				{
+					"name": "leftitem",
+					"parent": "leftarm",
+					"pivot": [-1, 2, 1],
+					"rotation": [-80, -10, -15]
+				},
+				{
+					"name": "rightarm",
+					"parent": "body",
+					"pivot": [0, 2, 0]
+				},
+				{
+					"name": "rightitem",
+					"parent": "rightarm",
+					"pivot": [-1, 2, 8.3],
+					"rotation": [-75, -10, -15]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 1.75, 0]
+				},
+				{
+					"name": "hat",
+					"parent": "head",
+					"pivot": [-1, -7, 1],
+					"rotation": [-80, -10, -15]
+				}
+			]
+		}
+	]
+}

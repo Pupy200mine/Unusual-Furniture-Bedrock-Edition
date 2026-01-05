@@ -1,0 +1,164 @@
+{
+    "format_version": "1.21.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "unusual_furniture:mushroom_patch_block",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "unusual_furniture:wall": [
+                    false,
+                    true
+                ],
+                "unusual_furniture:plant": [
+                    0,
+                    1
+                ],
+                "unusual_furniture:type": [
+                    0,
+                    1
+                ]
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:block_face"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.unusual_furniture.mushroom_patch",
+                "bone_visibility": {
+                    "wall1": "q.block_state('unusual_furniture:wall') == true && q.block_state('unusual_furniture:plant') == 0",
+                    "wall2": "q.block_state('unusual_furniture:wall') == true && q.block_state('unusual_furniture:plant') == 1",
+                    "patch": "q.block_state('unusual_furniture:wall') == false"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "jungle_plant",
+                    "render_method": "alpha_test",
+                    "tint_method": "default_foliage"
+                }
+            },
+            "minecraft:flammable": true,
+            "minecraft:destructible_by_explosion": true,
+            "minecraft:custom_components": [
+                "unusual_furniture:mushroom_patch"
+            ],
+            "tag:unusual_furniture:mushroom_patch": {},
+            "minecraft:loot": "loot_tables/mushroom_patch.json",
+            "tag:unusual_furniture:no_particles": {},
+            "minecraft:collision_box": false
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:wall') == true",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            6
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            2
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:wall') == false",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            5,
+                            16
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:type') == 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "brown_mushroom",
+                            "ambient_occlusion": false
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:type') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "red_mushroom",
+                            "ambient_occlusion": false
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:dark_oak_railing"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:stripped_dark_oak_log"
+      },
+      {
+        "item": "minecraft:stick"
+      }
+    ],
+    "pattern": [
+      "SSS",
+      " A "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stripped_dark_oak_log"
+      },
+      "A": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:dark_oak_railing",
+      "count": 6
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:brown_sofa"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "tag": "minecraft:planks"
+      },
+      {
+        "item": "minecraft:brown_wool"
+      }
+    ],
+    "pattern": [
+      "W  ",
+      "WWW",
+      "P P"
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:brown_wool"
+      },
+      "P": {
+        "tag": "minecraft:planks"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:brown_sofa",
+      "count": 4
+    }
+  }
+}

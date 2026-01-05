@@ -1,0 +1,24 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "unusual_furniture:floor_lamp_decoration_bat"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "unlock": [
+      {
+        "item": "unusual_furniture:decorated_iron_beam"
+      }
+    ],
+    "ingredients": [
+      {
+        "item": "unusual_furniture:decorated_iron_beam"
+      }
+    ],
+    "result": {
+      "item": "unusual_furniture:floor_lamp_decoration_bat"
+    }
+  }
+}

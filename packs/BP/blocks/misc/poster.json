@@ -1,0 +1,241 @@
+{
+    "format_version": "1.21.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "unusual_furniture:poster",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "unusual_furniture:wall": [
+                    false,
+                    true
+                ],
+                "unusual_furniture:variant": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ]
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:block_face"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.unusual_furniture.poster",
+                "bone_visibility": {
+                    "wall": "q.block_state('unusual_furniture:wall') == true",
+                    "floor": "q.block_state('unusual_furniture:wall') == false"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "poster1",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:flammable": true,
+            "minecraft:destructible_by_explosion": true,
+            "minecraft:custom_components": [
+                "unusual_furniture:poster"
+            ],
+            "tag:unusual_furniture:poster": {},
+            "minecraft:loot": "loot_tables/poster.json",
+            "tag:unusual_furniture:no_particles": {}
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:wall') == true",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            7
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            1
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            7
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            1
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:wall') == false",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            1,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            1,
+                            16
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:variant') == 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "poster1",
+                            "render_method": "blend"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:variant') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "poster2",
+                            "render_method": "blend"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:variant') == 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "poster3",
+                            "render_method": "blend"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:variant') == 3",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "poster4",
+                            "render_method": "blend"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:variant') == 4",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "poster5",
+                            "render_method": "blend"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:variant') == 5",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "poster6",
+                            "render_method": "blend"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:variant') == 6",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "poster7",
+                            "render_method": "blend"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

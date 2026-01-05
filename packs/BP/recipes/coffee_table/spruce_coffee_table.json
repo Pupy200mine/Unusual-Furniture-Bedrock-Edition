@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:spruce_coffee_table"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:stripped_spruce_log"
+      },
+      {
+        "item": "minecraft:spruce_slab"
+      }
+    ],
+    "pattern": [
+      "SS",
+      "OO",
+      "OO"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:spruce_slab"
+      },
+      "O": {
+        "item": "minecraft:stripped_spruce_log"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:spruce_coffee_table"
+    }
+  }
+}

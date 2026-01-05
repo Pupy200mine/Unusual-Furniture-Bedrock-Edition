@@ -1,0 +1,41 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:trash"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:stick"
+      },
+      {
+        "item": "minecraft:iron_nugget"
+      },
+      {
+        "tag": "minecraft:wooden_slabs"
+      }
+    ],
+    "pattern": [
+      "SAS",
+      "SBS",
+      "SBS"
+    ],
+    "key": {
+      "A": {
+        "item": "unusual_furniture:screw"
+      },
+      "S": {
+        "item": "minecraft:iron_nugget"
+      },
+      "B": {
+        "tag": "minecraft:wooden_slabs"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:trash"
+    }
+  }
+}

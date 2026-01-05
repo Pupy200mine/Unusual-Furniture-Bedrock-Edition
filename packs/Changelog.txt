@@ -1,0 +1,17 @@
+- Nuevo item
+	- Screws: Sirve para evitar duplicados de recetas y para hacer algunas recetas mas baratas
+- Nuevos bloques decorativos
+	- Graves
+	- Broom
+	- Rakes (Ten cuidado, no lo pises!)
+
+- Cambios
+	- Cambios en varias recetas para incluir Screws
+	- los Carved Planks ahora tienen texturas conectadas
+	- El Wooden Clock ahora se puede colocar en el suelo y techo, ademas, ahora 
+	muestra la hora, configurable para mostrar la hora real o la del mundo
+	- Las recetas del libro de recetas se cambiaron para ser iguales a las
+	nuevas recetas
+
+- Arreglo de errores
+	- "Decorated Iron Beam" y "Iron Beam" ahora tienen receta

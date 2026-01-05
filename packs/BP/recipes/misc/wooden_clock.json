@@ -1,0 +1,41 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:wooden_clock"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:clock"
+      },
+      {
+        "tag": "minecraft:wooden_slabs"
+      },
+      {
+        "item": "unusual_furniture:screw"
+      }
+    ],
+    "pattern": [
+      " S ",
+      "RAR",
+      " S "
+    ],
+    "key": {
+      "S": {
+        "tag": "minecraft:wooden_slabs"
+      },
+      "A": {
+        "item": "minecraft:clock"
+      },
+      "R": {
+        "item": "unusual_furniture:screw"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:wooden_clock"
+    }
+  }
+}

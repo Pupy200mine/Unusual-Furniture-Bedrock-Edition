@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "huge_pot",
+		"metalness_emissive_roughness": "huge_pot_mer",
+		"heightmap": "huge_pot_height"
+	}
+}

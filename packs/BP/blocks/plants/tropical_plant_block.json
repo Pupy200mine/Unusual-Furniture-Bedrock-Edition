@@ -1,0 +1,140 @@
+{
+    "format_version": "1.21.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "unusual_furniture:tropical_plant_block",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "unusual_furniture:wall": [
+                    false,
+                    true
+                ],
+                "unusual_furniture:plant": [
+                    0,
+                    1,
+                    2
+                ]
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:block_face"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.unusual_furniture.tropical_plant",
+                "bone_visibility": {
+                    "wall": "q.block_state('unusual_furniture:wall') == true",
+                    "tropical_plant_1": "q.block_state('unusual_furniture:wall') == false && q.block_state('unusual_furniture:plant') == 0",
+                    "tropical_plant_2": "q.block_state('unusual_furniture:wall') == false && q.block_state('unusual_furniture:plant') == 1",
+                    "tropical_plant_3": "q.block_state('unusual_furniture:wall') == false && q.block_state('unusual_furniture:plant') == 2"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "jungle_plant",
+                    "render_method": "alpha_test",
+                    "tint_method": "default_foliage"
+                }
+            },
+            "minecraft:flammable": true,
+            "minecraft:destructible_by_explosion": true,
+            "minecraft:custom_components": [
+                "unusual_furniture:tropical_plant"
+            ],
+            "tag:unusual_furniture:tropical_plant": {},
+            "minecraft:loot": "loot_tables/tropical_plant.json",
+            "tag:unusual_furniture:no_particles": {},
+            "minecraft:collision_box": false
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:wall') == true",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            6
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            2
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:wall') == false",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -4,
+                            0,
+                            -4
+                        ],
+                        "size": [
+                            8,
+                            14,
+                            8
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

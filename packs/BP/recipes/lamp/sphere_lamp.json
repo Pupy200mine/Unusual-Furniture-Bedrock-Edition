@@ -1,0 +1,45 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:sphere_lamp"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:iron_ingot"
+      },
+      {
+        "item": "minecraft:redstone_lamp"
+      },
+      {
+        "item": "unusual_furniture:screw"
+      }
+    ],
+    "pattern": [
+      " S ",
+      "RAR",
+      " B "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:iron_ingot"
+      },
+      "A": {
+        "item": "minecraft:redstone_lamp"
+      },
+      "B": {
+        "item": "minecraft:glass"
+      },
+      "R": {
+        "item": "unusual_furniture:screw"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:sphere_lamp",
+      "count": 2
+    }
+  }
+}

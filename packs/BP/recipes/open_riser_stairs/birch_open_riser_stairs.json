@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:birch_open_riser_stairs"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:birch_stairs"
+      },
+      {
+        "item": "minecraft:stick"
+      }
+    ],
+    "pattern": [
+      " SA",
+      "SA "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:birch_stairs"
+      },
+      "A": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:birch_open_riser_stairs",
+      "count": 2
+    }
+  }
+}

@@ -1,0 +1,216 @@
+{
+    "format_version": "1.21.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "unusual_furniture:carved_cherry",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "unusual_furniture:wall": [
+                    false,
+                    true
+                ],
+                "unusual_furniture:carved_block": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:block_face"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "minecraft:geometry.full_block"
+            },
+            "minecraft:material_instances": {
+                "north": {
+                    "texture": "carved_cherry_side"
+                },
+                "south": {
+                    "texture": "carved_cherry_side"
+                },
+                "east": {
+                    "texture": "carved_cherry_side"
+                },
+                "west": {
+                    "texture": "carved_cherry_side"
+                },
+                "up": {
+                    "texture": "carved_cherry_top"
+                },
+                "down": {
+                    "texture": "carved_cherry_top"
+                }
+            },
+            "minecraft:custom_components": [
+                "unusual_furniture:carved_block"
+            ],
+            "minecraft:flammable": true,
+            "minecraft:destructible_by_explosion": true,
+            "tag:unusual_furniture:carved_block": {},
+            "tag:minecraft:is_axe_item_destructible": {},
+            "tag:unusual_furniture:no_particles": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            270,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            270,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            270,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            270,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:carved_block') == 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "north": {
+                            "texture": "carved_cherry_side"
+                        },
+                        "south": {
+                            "texture": "carved_cherry_side"
+                        },
+                        "east": {
+                            "texture": "carved_cherry_side"
+                        },
+                        "west": {
+                            "texture": "carved_cherry_side"
+                        },
+                        "up": {
+                            "texture": "carved_cherry_top"
+                        },
+                        "down": {
+                            "texture": "carved_cherry_top"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:carved_block') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "north": {
+                            "texture": "carverd_cherry_bottom"
+                        },
+                        "south": {
+                            "texture": "carverd_cherry_bottom"
+                        },
+                        "east": {
+                            "texture": "carverd_cherry_bottom"
+                        },
+                        "west": {
+                            "texture": "carverd_cherry_bottom"
+                        },
+                        "up": {
+                            "texture": "carved_cherry_top"
+                        },
+                        "down": {
+                            "texture": "carved_cherry_top"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:carved_block') == 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "north": {
+                            "texture": "carverd_cherry_top"
+                        },
+                        "south": {
+                            "texture": "carverd_cherry_top"
+                        },
+                        "east": {
+                            "texture": "carverd_cherry_top"
+                        },
+                        "west": {
+                            "texture": "carverd_cherry_top"
+                        },
+                        "up": {
+                            "texture": "carved_cherry_top"
+                        },
+                        "down": {
+                            "texture": "carved_oak_top"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:carved_block') == 3",
+                "components": {
+                    "minecraft:material_instances": {
+                        "north": {
+                            "texture": "carverd_cherry_middle"
+                        },
+                        "south": {
+                            "texture": "carverd_cherry_middle"
+                        },
+                        "east": {
+                            "texture": "carverd_cherry_middle"
+                        },
+                        "west": {
+                            "texture": "carverd_cherry_middle"
+                        },
+                        "up": {
+                            "texture": "carved_cherry_top"
+                        },
+                        "down": {
+                            "texture": "carved_cherry_top"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

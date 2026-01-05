@@ -1,0 +1,41 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:grave_broken"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:stone_brick_slab"
+      },
+      {
+        "item": "unusual_furniture:screw"
+      },
+      {
+        "item": "minecraft:chiseled_stone_bricks"
+      }
+    ],
+    "pattern": [
+      "A",
+      "S",
+      "D"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:stone_brick_slab"
+      },
+      "S": {
+        "item": "unusual_furniture:screw"
+      },
+      "D": {
+        "item": "minecraft:chiseled_stone_bricks"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:grave_broken"
+    }
+  }
+}

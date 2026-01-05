@@ -1,0 +1,30 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"unusual_furniture:squeak": {
+			"category": "block",
+			"sounds": [
+				"sounds/squeak1",
+				"sounds/squeak2"
+			]
+		},
+		"mob.allay.item_given": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/random/pop",
+					"volume": 0.5
+				}
+			]
+		},
+		"mob.allay.item_taken": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/random/pop",
+					"volume": 0.5
+				}
+			]
+		}
+	}
+}

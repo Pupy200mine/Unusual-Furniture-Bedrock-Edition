@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:fudge_pot"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:blackstone"
+      },
+      {
+        "item": "minecraft:gold_nugget"
+      }
+    ],
+    "pattern": [
+      " S ",
+      "S S",
+      " S "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:hardened_clay"
+      },
+      "A": {
+        "item": "minecraft:gold_nugget"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:fudge_pot"
+    }
+  }
+}

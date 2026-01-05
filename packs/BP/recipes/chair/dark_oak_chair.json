@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:dark_oak_chair"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:stick"
+      },
+      {
+        "item": "minecraft:dark_oak_slab"
+      }
+    ],
+    "pattern": [
+      "SS",
+      "SS",
+      "OO"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:dark_oak_slab"
+      },
+      "O": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:dark_oak_chair"
+    }
+  }
+}

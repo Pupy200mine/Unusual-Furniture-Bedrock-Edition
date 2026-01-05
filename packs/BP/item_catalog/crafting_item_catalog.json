@@ -1,0 +1,390 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:crafting_items_catalog": {
+        "categories": [
+            {
+                "category_name": "construction",
+                "groups": [
+                    {
+                        "group_identifier": {
+                            "name": "unusual_furniture:itemGroup.name.table",
+                            "icon": "unusual_furniture:oak_table"
+                        },
+                        "items": [
+                            "unusual_furniture:oak_table",
+                            "unusual_furniture:spruce_table",
+                            "unusual_furniture:birch_table",
+                            "unusual_furniture:jungle_table",
+                            "unusual_furniture:acacia_table",
+                            "unusual_furniture:dark_oak_table",
+                            "unusual_furniture:mangrove_table",
+                            "unusual_furniture:cherry_table",
+                            "unusual_furniture:bamboo_table",
+                            "unusual_furniture:crimson_table",
+                            "unusual_furniture:warped_table",
+                            "unusual_furniture:industrial_table"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "unusual_furniture:itemGroup.name.coffee_table",
+                            "icon": "unusual_furniture:oak_coffee_table"
+                        },
+                        "items": [
+                            "unusual_furniture:oak_coffee_table",
+                            "unusual_furniture:spruce_coffee_table",
+                            "unusual_furniture:birch_coffee_table",
+                            "unusual_furniture:jungle_coffee_table",
+                            "unusual_furniture:acacia_coffee_table",
+                            "unusual_furniture:dark_oak_coffee_table",
+                            "unusual_furniture:mangrove_coffee_table",
+                            "unusual_furniture:cherry_coffee_table",
+                            "unusual_furniture:bamboo_coffee_table",
+                            "unusual_furniture:crimson_coffee_table",
+                            "unusual_furniture:warped_coffee_table",
+                            "unusual_furniture:industrial_coffee_table"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "unusual_furniture:itemGroup.name.chair",
+                            "icon": "unusual_furniture:oak_chair"
+                        },
+                        "items": [
+                            "unusual_furniture:oak_chair",
+                            "unusual_furniture:spruce_chair",
+                            "unusual_furniture:birch_chair",
+                            "unusual_furniture:jungle_chair",
+                            "unusual_furniture:acacia_chair",
+                            "unusual_furniture:dark_oak_chair",
+                            "unusual_furniture:mangrove_chair",
+                            "unusual_furniture:cherry_chair",
+                            "unusual_furniture:bamboo_chair",
+                            "unusual_furniture:crimson_chair",
+                            "unusual_furniture:warped_chair"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "unusual_furniture:itemGroup.name.sofa",
+                            "icon": "unusual_furniture:white_sofa"
+                        },
+                        "items": [
+                            "unusual_furniture:white_sofa",
+                            "unusual_furniture:gray_sofa",
+                            "unusual_furniture:light_gray_sofa",
+                            "unusual_furniture:black_sofa",
+                            "unusual_furniture:brown_sofa",
+                            "unusual_furniture:red_sofa",
+                            "unusual_furniture:orange_sofa",
+                            "unusual_furniture:yellow_sofa",
+                            "unusual_furniture:lime_sofa",
+                            "unusual_furniture:green_sofa",
+                            "unusual_furniture:cyan_sofa",
+                            "unusual_furniture:light_blue_sofa",
+                            "unusual_furniture:blue_sofa",
+                            "unusual_furniture:purple_sofa",
+                            "unusual_furniture:magenta_sofa",
+                            "unusual_furniture:pink_sofa"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "unusual_furniture:itemGroup.name.stool",
+                            "icon": "unusual_furniture:oak_stool"
+                        },
+                        "items": [
+                            "unusual_furniture:oak_stool",
+                            "unusual_furniture:spruce_stool",
+                            "unusual_furniture:birch_stool",
+                            "unusual_furniture:jungle_stool",
+                            "unusual_furniture:acacia_stool",
+                            "unusual_furniture:dark_oak_stool",
+                            "unusual_furniture:mangrove_stool",
+                            "unusual_furniture:cherry_stool",
+                            "unusual_furniture:bamboo_stool",
+                            "unusual_furniture:crimson_stool",
+                            "unusual_furniture:warped_stool"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "unusual_furniture:itemGroup.name.ceiling_lamp",
+                            "icon": "unusual_furniture:oak_ceiling_lamp"
+                        },
+                        "items": [
+                            "unusual_furniture:oak_ceiling_lamp",
+                            "unusual_furniture:spruce_ceiling_lamp",
+                            "unusual_furniture:birch_ceiling_lamp",
+                            "unusual_furniture:jungle_ceiling_lamp",
+                            "unusual_furniture:acacia_ceiling_lamp",
+                            "unusual_furniture:dark_oak_ceiling_lamp",
+                            "unusual_furniture:mangrove_ceiling_lamp",
+                            "unusual_furniture:cherry_ceiling_lamp",
+                            "unusual_furniture:bamboo_ceiling_lamp",
+                            "unusual_furniture:crimson_ceiling_lamp",
+                            "unusual_furniture:warped_ceiling_lamp",
+                            "unusual_furniture:copper_ceiling_lamp"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "unusual_furniture:itemGroup.name.drawer",
+                            "icon": "unusual_furniture:oak_drawer"
+                        },
+                        "items": [
+                            "unusual_furniture:oak_drawer",
+                            "unusual_furniture:spruce_drawer",
+                            "unusual_furniture:birch_drawer",
+                            "unusual_furniture:jungle_drawer",
+                            "unusual_furniture:acacia_drawer",
+                            "unusual_furniture:dark_oak_drawer",
+                            "unusual_furniture:mangrove_drawer",
+                            "unusual_furniture:cherry_drawer",
+                            "unusual_furniture:bamboo_drawer",
+                            "unusual_furniture:crimson_drawer",
+                            "unusual_furniture:warped_drawer"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "unusual_furniture:itemGroup.name.bench",
+                            "icon": "unusual_furniture:oak_bench"
+                        },
+                        "items": [
+                            "unusual_furniture:oak_bench",
+                            "unusual_furniture:spruce_bench",
+                            "unusual_furniture:birch_bench",
+                            "unusual_furniture:jungle_bench",
+                            "unusual_furniture:acacia_bench",
+                            "unusual_furniture:dark_oak_bench",
+                            "unusual_furniture:mangrove_bench",
+                            "unusual_furniture:cherry_bench",
+                            "unusual_furniture:bamboo_bench",
+                            "unusual_furniture:crimson_bench",
+                            "unusual_furniture:warped_bench"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "unusual_furniture:itemGroup.name.pot",
+                            "icon": "unusual_furniture:greek_pot"
+                        },
+                        "items": [
+                            "unusual_furniture:fudge_pot",
+                            "unusual_furniture:hanging_pot",
+                            "unusual_furniture:large_hanging_pot",
+                            "unusual_furniture:stone_pot",
+                            "unusual_furniture:wooden_hanging_pot",
+                            "unusual_furniture:blackstone_pot",
+                            "unusual_furniture:greek_pot",
+                            "unusual_furniture:huge_pot",
+                            "unusual_furniture:vintage_flower_pot",
+                            "unusual_furniture:tall_clay_pot"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "unusual_furniture:itemGroup.name.barrier",
+                            "icon": "unusual_furniture:danger_barrier"
+                        },
+                        "items": [
+                            "unusual_furniture:road_works_barrier",
+                            "unusual_furniture:warning_barrier",
+                            "unusual_furniture:wooden_barrier",
+                            "unusual_furniture:danger_barrier"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "unusual_furniture:itemGroup.name.open_riser_stairs",
+                            "icon": "unusual_furniture:oak_open_riser_stairs"
+                        },
+                        "items": [
+                            "unusual_furniture:oak_open_riser_stairs",
+                            "unusual_furniture:spruce_open_riser_stairs",
+                            "unusual_furniture:birch_open_riser_stairs",
+                            "unusual_furniture:jungle_open_riser_stairs",
+                            "unusual_furniture:acacia_open_riser_stairs",
+                            "unusual_furniture:dark_oak_open_riser_stairs",
+                            "unusual_furniture:mangrove_open_riser_stairs",
+                            "unusual_furniture:cherry_open_riser_stairs",
+                            "unusual_furniture:bamboo_open_riser_stairs",
+                            "unusual_furniture:crimson_open_riser_stairs",
+                            "unusual_furniture:warped_open_riser_stairs"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "unusual_furniture:itemGroup.name.railing",
+                            "icon": "unusual_furniture:oak_railing"
+                        },
+                        "items": [
+                            "unusual_furniture:oak_railing",
+                            "unusual_furniture:spruce_railing",
+                            "unusual_furniture:birch_railing",
+                            "unusual_furniture:jungle_railing",
+                            "unusual_furniture:acacia_railing",
+                            "unusual_furniture:dark_oak_railing",
+                            "unusual_furniture:mangrove_railing",
+                            "unusual_furniture:cherry_railing",
+                            "unusual_furniture:bamboo_railing",
+                            "unusual_furniture:crimson_railing",
+                            "unusual_furniture:warped_railing"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "unusual_furniture:itemGroup.name.beam",
+                            "icon": "unusual_furniture:oak_beam"
+                        },
+                        "items": [
+                            "unusual_furniture:oak_beam",
+                            "unusual_furniture:spruce_beam",
+                            "unusual_furniture:birch_beam",
+                            "unusual_furniture:jungle_beam",
+                            "unusual_furniture:acacia_beam",
+                            "unusual_furniture:dark_oak_beam",
+                            "unusual_furniture:mangrove_beam",
+                            "unusual_furniture:cherry_beam",
+                            "unusual_furniture:bamboo_beam",
+                            "unusual_furniture:crimson_beam",
+                            "unusual_furniture:warped_beam",
+                            "unusual_furniture:iron_beam",
+                            "unusual_furniture:decorated_iron_beam"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "unusual_furniture:itemGroup.name.carved",
+                            "icon": "unusual_furniture:carved_oak"
+                        },
+                        "items": [
+                            "unusual_furniture:carved_oak",
+                            "unusual_furniture:carved_spruce",
+                            "unusual_furniture:carved_birch",
+                            "unusual_furniture:carved_jungle",
+                            "unusual_furniture:carved_acacia",
+                            "unusual_furniture:carved_dark_oak",
+                            "unusual_furniture:carved_mangrove",
+                            "unusual_furniture:carved_cherry",
+                            "unusual_furniture:carved_bamboo",
+                            "unusual_furniture:carved_crimson",
+                            "unusual_furniture:carved_warped"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "unusual_furniture:itemGroup.name.shelf",
+                            "icon": "unusual_furniture:oak_shelf"
+                        },
+                        "items": [
+                            "unusual_furniture:oak_shelf",
+                            "unusual_furniture:spruce_shelf",
+                            "unusual_furniture:birch_shelf",
+                            "unusual_furniture:jungle_shelf",
+                            "unusual_furniture:acacia_shelf",
+                            "unusual_furniture:dark_oak_shelf",
+                            "unusual_furniture:mangrove_shelf",
+                            "unusual_furniture:cherry_shelf",
+                            "unusual_furniture:bamboo_shelf",
+                            "unusual_furniture:crimson_shelf",
+                            "unusual_furniture:warped_shelf"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "unusual_furniture:itemGroup.name.plush",
+                            "icon": "unusual_furniture:pig_plush"
+                        },
+                        "items": [
+                            "unusual_furniture:mystery_crate",
+                            "unusual_furniture:pig_plush",
+                            "unusual_furniture:cat_plush",
+                            "unusual_furniture:cow_plush"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "unusual_furniture:itemGroup.name.curtain",
+                            "icon": "unusual_furniture:white_curtain"
+                        },
+                        "items": [
+                            "unusual_furniture:white_curtain",
+                            "unusual_furniture:gray_curtain",
+                            "unusual_furniture:light_gray_curtain",
+                            "unusual_furniture:black_curtain",
+                            "unusual_furniture:brown_curtain",
+                            "unusual_furniture:red_curtain",
+                            "unusual_furniture:orange_curtain",
+                            "unusual_furniture:yellow_curtain",
+                            "unusual_furniture:lime_curtain",
+                            "unusual_furniture:green_curtain",
+                            "unusual_furniture:cyan_curtain",
+                            "unusual_furniture:blue_curtain",
+                            "unusual_furniture:light_blue_curtain",
+                            "unusual_furniture:purple_curtain",
+                            "unusual_furniture:magenta_curtain",
+                            "unusual_furniture:pink_curtain"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "unusual_furniture:itemGroup.name.lamp_decoration",
+                            "icon": "unusual_furniture:iron_lamp"
+                        },
+                        "items": [
+                            "unusual_furniture:floor_lamp_decoration_villager",
+                            "unusual_furniture:floor_lamp_decoration_bat",
+                            "unusual_furniture:iron_lamp",
+                            "unusual_furniture:sphere_lamp"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "unusual_furniture:itemGroup.name.bag_plants",
+                            "icon": "unusual_furniture:water_plants"
+                        },
+                        "items": [
+                            "unusual_furniture:water_plants",
+                            "unusual_furniture:mushroom_patch",
+                            "unusual_furniture:tropical_plants",
+                            "unusual_furniture:pebble_bag"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "unusual_furniture:itemGroup.name.spooky",
+                            "icon": "unusual_furniture:broom"
+                        },
+                        "items": [
+                            "unusual_furniture:broom",
+                            "unusual_furniture:rakes",
+                            "unusual_furniture:grave_broken",
+                            "unusual_furniture:grave_skeleton",
+                            "unusual_furniture:grave_creeper"
+                        ]
+                    },
+                    {
+                        "group_identifier": {
+                            "name": "unusual_furniture:itemGroup.name.miscellaneous",
+                            "icon": "unusual_furniture:emergency_fire_hydrant"
+                        },
+                        "items": [
+                            "unusual_furniture:spruce_floor_lamp",
+                            "unusual_furniture:blackboard_menu",
+                            "unusual_furniture:fire_hydrant",
+                            "unusual_furniture:poster",
+                            "unusual_furniture:trash",
+                            "unusual_furniture:screw",
+                            "unusual_furniture:manhole",
+                            "unusual_furniture:decorative_toolbox",
+                            "unusual_furniture:wooden_clock",
+                            "unusual_furniture:emergency_fire_hydrant"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

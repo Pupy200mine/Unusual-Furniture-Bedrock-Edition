@@ -1,0 +1,147 @@
+{
+    "format_version": "1.21.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "unusual_furniture:wooden_clock",
+            "menu_category": {
+                "category": "construction"
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:block_face"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.unusual_furniture.clock"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "clock",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:item_visual": {
+                "geometry": "geometry.unusual_furniture.clock_visual",
+                "material_instances": {
+                    "*": {
+                        "texture": "clock",
+                        "render_method": "alpha_test"
+                    }
+                }
+            },
+            "minecraft:custom_components": [
+                "unusual_furniture:wooden_clock"
+            ],
+            "tag:minecraft:is_axe_item_destructible": {},
+            "minecraft:flammable": true,
+            "minecraft:destructible_by_explosion": true,
+            "tag:unusual_furniture:clock": {},
+            "tag:unusual_furniture:no_particles": {},
+            "minecraft:collision_box": {
+                "origin": [
+                    -6,
+                    1,
+                    6
+                ],
+                "size": [
+                    11,
+                    11,
+                    2
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -6,
+                    1,
+                    6
+                ],
+                "size": [
+                    11,
+                    11,
+                    2
+                ]
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'up'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            90,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'down'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            -90,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

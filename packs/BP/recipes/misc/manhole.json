@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:manhole"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "unusual_furniture:screw"
+      },
+      {
+        "item": "minecraft:iron_trapdoor"
+      }
+    ],
+    "pattern": [
+      "SAS"
+    ],
+    "key": {
+      "S": {
+        "item": "unusual_furniture:screw"
+      },
+      "A": {
+        "item": "minecraft:iron_trapdoor"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:manhole"
+    }
+  }
+}

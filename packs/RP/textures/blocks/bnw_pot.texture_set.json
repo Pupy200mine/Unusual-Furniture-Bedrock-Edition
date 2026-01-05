@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "bnw_pot",
+		"metalness_emissive_roughness": "bnw_pot_mer",
+		"heightmap": "bnw_pot_height"
+	}
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:carved_dark_oak"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:dark_oak_slab"
+      },
+      {
+        "item": "unusual_furniture:screw"
+      }
+    ],
+    "pattern": [
+      "A",
+      "S",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:dark_oak_slab"
+      },
+      "S": {
+        "item": "unusual_furniture:screw"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:carved_dark_oak",
+      "count": 4
+    }
+  }
+}

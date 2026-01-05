@@ -1,0 +1,22 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.item.unusual_furniture.block.unused": {
+			"loop": true,
+			"bones": {
+				"rightitem": {
+					"rotation": [
+						"query.variant == 0 ? -34.7671460169 : 0",
+						"query.variant == 0 ? 9.6661340628 : 0",
+						"query.variant == 0 ? -2.5759817735 : 0"
+					],
+					"position": [
+						0,
+						0,
+						"query.variant == 0 ? 2.3 : 0"
+					]
+				}
+			}
+		}
+	}
+}

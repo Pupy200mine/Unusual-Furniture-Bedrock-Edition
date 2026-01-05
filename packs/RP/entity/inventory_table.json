@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unusual_furniture:inventory_table",
+      "materials": {
+        "default": "bat"
+      },
+      "textures": {
+        "default": "textures/entity/table"
+      },
+      "geometry": {
+        "default": "geometry.item.unusual_furniture"
+      },
+      "animations": {
+        "item": "animation.item.unusual_furniture.block"
+      },
+      "scripts": {
+        "animate": ["item"]
+      },
+      "render_controllers": ["controller.render.default"],
+      "enable_attachables": true,
+      "held_item_ignores_lighting": false
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:fire_hydrant"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:iron_ingot"
+      },
+      {
+        "item": "unusual_furniture:screw"
+      },
+      {
+        "item": "minecraft:water_bucket"
+      }
+    ],
+    "pattern": [
+      " B ",
+      "SAS",
+      " B "
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:iron_ingot"
+      },
+      "S": {
+        "item": "unusual_furniture:screw"
+      },
+      "A": {
+        "item": "minecraft:water_bucket"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:fire_hydrant"
+    }
+  }
+}

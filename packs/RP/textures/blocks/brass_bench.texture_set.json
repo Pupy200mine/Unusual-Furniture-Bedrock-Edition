@@ -1,0 +1,7 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "brass_bench",
+		"metalness_emissive_roughness": "brass_bench_mer"
+	}
+}

@@ -1,0 +1,41 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:vintage_flower_pot"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:quartz"
+      },
+      {
+        "item": "minecraft:yellow_dye"
+      },
+      {
+        "item": "minecraft:light_blue_dye"
+      }
+    ],
+    "pattern": [
+      " B ",
+      "SAS",
+      " S "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:quartz"
+      },
+      "A": {
+        "item": "minecraft:yellow_dye"
+      },
+      "B": {
+        "item": "minecraft:light_blue_dye"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:vintage_flower_pot"
+    }
+  }
+}

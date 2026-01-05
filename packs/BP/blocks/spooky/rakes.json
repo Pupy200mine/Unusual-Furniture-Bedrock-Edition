@@ -1,0 +1,202 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "unusual_furniture:rakes",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "unusual_furniture:state": [
+                    0,
+                    1,
+                    2
+                ]
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 180
+                }
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.unusual_furniture.rakes",
+                "bone_visibility": {
+                    "normal": "query.block_state('unusual_furniture:state') == 0",
+                    "wall": "query.block_state('unusual_furniture:state') == 1",
+                    "ground": "query.block_state('unusual_furniture:state') == 2"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "rakes",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:custom_components": [
+                "unusual_furniture:rakes"
+            ],
+            "minecraft:tick": {
+                "interval_range": [
+                    0,
+                    0
+                ],
+                "looping": true
+            },
+            "minecraft:flammable": true,
+            "minecraft:destructible_by_explosion": true,
+            "tag:minecraft:is_axe_item_destructible": {},
+            "tag:unusual_furniture:rakes": {},
+            "minecraft:collision_box": {
+                "origin": [
+                    -2.95,
+                    0,
+                    -0.72
+                ],
+                "size": [
+                    5.5,
+                    12.6,
+                    1.1
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -2.95,
+                    0,
+                    -0.72
+                ],
+                "size": [
+                    5.5,
+                    12.6,
+                    1.1
+                ]
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('unusual_furniture:state') == 2",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -2.95,
+                            0,
+                            -6.33
+                        ],
+                        "size": [
+                            5.5,
+                            1.2,
+                            13
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -2.95,
+                            0,
+                            -6.33
+                        ],
+                        "size": [
+                            5.5,
+                            1.2,
+                            13
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            2,
+                            2,
+                            2
+                        ],
+                        "translation": [
+                            0,
+                            0.5,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ],
+                        "scale": [
+                            2,
+                            2,
+                            2
+                        ],
+                        "translation": [
+                            0,
+                            0.5,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ],
+                        "scale": [
+                            2,
+                            2,
+                            2
+                        ],
+                        "translation": [
+                            0,
+                            0.5,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ],
+                        "scale": [
+                            2,
+                            2,
+                            2
+                        ],
+                        "translation": [
+                            0,
+                            0.5,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

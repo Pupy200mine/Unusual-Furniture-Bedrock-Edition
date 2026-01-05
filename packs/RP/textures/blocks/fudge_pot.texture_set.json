@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "fudge_pot",
+		"metalness_emissive_roughness": "fudge_pot_mer",
+		"heightmap": "fudge_pot_height"
+	}
+}

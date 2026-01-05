@@ -1,0 +1,113 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "unusual_furniture:inventory_27",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "kills": {
+        "minecraft:transformation": {
+          "delay": {
+            "value": 0
+          },
+          "drop_inventory": true,
+          "into": "unusual_furniture:nothing"
+        }
+      },
+      "open": {
+        "minecraft:collision_box": {
+          "width": 0.8,
+          "height": 0.8
+        }
+      },
+      "closed": {
+        "minecraft:collision_box": {
+          "width": 0,
+          "height": 0
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": ["inanimate", "cfm:inventory"]
+      },
+      "minecraft:collision_box": {
+        "width": 0.8,
+        "height": 0.8
+      },
+      "minecraft:inventory": {
+        "container_type": "container",
+        "inventory_size": 27
+      },
+      "minecraft:physics": {
+        "has_collision": false,
+        "has_gravity": false
+      },
+      "minecraft:fire_immune": true,
+      "minecraft:damage_sensor": {
+        "triggers": [
+          {
+            "cause": "all",
+            "deals_damage": false
+          },
+          {
+            "cause": "suffocation",
+            "deals_damage": false
+          },
+          {
+            "cause": "entity_attack",
+            "deals_damage": false
+          }
+        ]
+      },
+      "minecraft:breathable": {
+        "breathes_solids": true
+      },
+      "minecraft:inside_block_notifier": {
+        "block_list": [
+          {
+            "block": {
+              "name": "minecraft:air"
+            },
+            "entered_block_event": {
+              "event": "kill"
+            }
+          }
+        ]
+      },
+      "minecraft:tick_world": {
+        "never_despawn": true
+      }
+    },
+    "events": {
+      "kill": {
+        "sequence": [
+          {
+            "add": {
+              "component_groups": ["kills"]
+            }
+          }
+        ]
+      },
+      "open": {
+        "add": {
+          "component_groups": ["open"]
+        },
+        "remove": {
+          "component_groups": ["closed"]
+        }
+      },
+      "close": {
+        "add": {
+          "component_groups": ["closed"]
+        },
+        "remove": {
+          "component_groups": ["open"]
+        }
+      }
+    }
+  }
+}

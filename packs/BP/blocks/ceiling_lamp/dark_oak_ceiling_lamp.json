@@ -1,0 +1,98 @@
+{
+    "format_version": "1.21.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "unusual_furniture:dark_oak_ceiling_lamp",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "unusual_furniture:light": [
+                    true,
+                    false
+                ]
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.unusual_furniture.ceiling_lamp",
+                "bone_visibility": {
+                    "light": "q.block_state('unusual_furniture:light') == true"
+                }
+            },
+            "minecraft:item_visual": {
+                "geometry": {
+                    "identifier": "geometry.unusual_furniture.ceiling_lamp_visual"
+                },
+                "material_instances": {
+                    "*": {
+                        "texture": "dark_oak_celling_lamp",
+                        "render_method": "blend"
+                    },
+                    "light": {
+                        "render_method": "blend",
+                        "texture": "light"
+                    }
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "dark_oak_celling_lamp",
+                    "render_method": "blend"
+                },
+                "light": {
+                    "render_method": "blend",
+                    "texture": "light"
+                }
+            },
+            "minecraft:flammable": true,
+            "minecraft:destructible_by_explosion": true,
+            "tag:minecraft:is_axe_item_destructible": {},
+            "minecraft:custom_components": [
+                "unusual_furniture:ceiling_lamp"
+            ],
+            "tag:unusual_furniture:ceiling_lamp": {},
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    7,
+                    -8
+                ],
+                "size": [
+                    16,
+                    9,
+                    16
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    7,
+                    -8
+                ],
+                "size": [
+                    16,
+                    9,
+                    16
+                ]
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('unusual_furniture:light') == true",
+                "components": {
+                    "minecraft:light_emission": 15
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:light') == false",
+                "components": {
+                    "minecraft:light_emission": 0
+                }
+            }
+        ]
+    }
+}

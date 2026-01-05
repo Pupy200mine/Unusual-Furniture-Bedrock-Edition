@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "unusual_furniture:tropical_plants1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:jungle_sapling"
+      },
+      {
+        "item": "minecraft:bone_meal"
+      }
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:jungle_sapling"
+      },
+      {
+        "item": "minecraft:bone_meal"
+      }
+    ],
+    "result": {
+      "item": "unusual_furniture:tropical_plants",
+      "count": 3
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:warning_barrier"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:white_dye"
+      },
+      {
+        "item": "unusual_furniture:screw"
+      },
+      {
+        "item": "minecraft:red_dye"
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "pattern": [
+      "RAR",
+      "SBS",
+      "B B"
+    ],
+    "key": {
+      "R": {
+        "item": "minecraft:white_dye"
+      },
+      "A": {
+        "item": "minecraft:red_dye"
+      },
+      "B": {
+        "item": "minecraft:iron_ingot"
+      },
+      "S": {
+        "item": "unusual_furniture:screw"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:warning_barrier",
+      "count": 4
+    }
+  }
+}

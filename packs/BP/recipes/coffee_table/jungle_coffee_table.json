@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:jungle_coffee_table"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:stripped_jungle_log"
+      },
+      {
+        "item": "minecraft:jungle_slab"
+      }
+    ],
+    "pattern": [
+      "SS",
+      "OO",
+      "OO"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:jungle_slab"
+      },
+      "O": {
+        "item": "minecraft:stripped_jungle_log"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:jungle_coffee_table"
+    }
+  }
+}

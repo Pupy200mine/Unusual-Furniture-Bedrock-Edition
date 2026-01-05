@@ -1,0 +1,146 @@
+{
+    "format_version": "1.21.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "unusual_furniture:cyan_sofa",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "unusual_furniture:connection": [
+                    "single",
+                    "left",
+                    "right",
+                    "middle",
+                    "corner_inner_left",
+                    "corner_inner_right",
+                    "corner_outer_left",
+                    "corner_outer_right"
+                ]
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 180
+                }
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.unusual_furniture.sofa",
+                "bone_visibility": {
+                    "sofa": "q.block_state('unusual_furniture:connection') == 'single'",
+                    "left": "q.block_state('unusual_furniture:connection') == 'left'",
+                    "right": "q.block_state('unusual_furniture:connection') == 'right'",
+                    "left_right": "q.block_state('unusual_furniture:connection') == 'middle'",
+                    "corner_inner_left": "q.block_state('unusual_furniture:connection') == 'corner_inner_left'",
+                    "corner_inner_right": "q.block_state('unusual_furniture:connection') == 'corner_inner_right'",
+                    "corner_outer_left": "q.block_state('unusual_furniture:connection') == 'corner_outer_left'",
+                    "corner_outer_right": "q.block_state('unusual_furniture:connection') == 'corner_outer_right'"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "cyan_sofa"
+                }
+            },
+            "minecraft:item_visual": {
+                "geometry": {
+                    "identifier": "geometry.unusual_furniture.sofa_visual"
+                },
+                "material_instances": {
+                    "*": {
+                        "texture": "cyan_sofa"
+                    }
+                }
+            },
+            "minecraft:flammable": true,
+            "minecraft:custom_components": [
+                "unusual_furniture:sofa",
+                "unusual_furniture:sit_interact"
+            ],
+            "minecraft:destructible_by_explosion": true,
+            "tag:minecraft:is_axe_item_destructible": {},
+            "tag:unusual_furniture:sofa": {},
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    10,
+                    16
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    10,
+                    16
+                ]
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

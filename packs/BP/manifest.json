@@ -1,0 +1,72 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"To0pa, Pupy200mine"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.48"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		},
+		"product_type": "addon"
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			21,
+			80
+		],
+		"uuid": "1bb91d02-f900-4a98-96f3-6940dfe4c2b8",
+		"version": [
+			1,
+			4,
+			3
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "1f627170-4fbe-48ac-9d1b-1b053eefce20",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "149765cc-9397-40fe-901d-40adcd966225",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "a6b6fd37-f4f5-436c-8578-9a8e96d83bc8",
+			"version": [
+				1,
+				4,
+				3
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.19.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.3.0"
+		}
+	]
+}

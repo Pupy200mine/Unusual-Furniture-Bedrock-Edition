@@ -1,0 +1,180 @@
+{
+    "format_version": "1.21.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "unusual_furniture:water_plants_block",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "unusual_furniture:water": [
+                    false,
+                    true
+                ],
+                "unusual_furniture:plant": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.unusual_furniture.water_plant"
+            },
+            "minecraft:flammable": true,
+            "minecraft:destructible_by_explosion": true,
+            "minecraft:custom_components": [
+                "unusual_furniture:water_plant"
+            ],
+            "tag:unusual_furniture:water_plant": {},
+            "minecraft:loot": "loot_tables/water_plant.json",
+            "tag:unusual_furniture:no_particles": {},
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "scum1",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    1,
+                    -8
+                ],
+                "size": [
+                    16,
+                    1,
+                    16
+                ]
+            },
+            "minecraft:collision_box": false,
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "up"
+                        ],
+                        "block_filter": [
+                            "minecraft:water"
+                        ]
+                    },
+                    {
+                        "allowed_faces": [
+                            "up"
+                        ],
+                        "block_filter": [
+                            "minecraft:grass_block",
+                            "minecraft:podzol",
+                            "minecraft:dirt",
+                            "minecraft:coarse_dirt",
+                            "minecraft:mycelium",
+                            "minecraft:dirt_with_roots"
+                        ]
+                    }
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('unusual_furniture:water') == true && q.block_state('unusual_furniture:plant') == 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "scum1",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:water') == true && q.block_state('unusual_furniture:plant') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "scum2",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:water') == true && q.block_state('unusual_furniture:plant') == 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "small_lily",
+                            "render_method": "alpha_test",
+                            "tint_method": "default_foliage"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:water') == true && q.block_state('unusual_furniture:plant') == 3",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "medium_lily",
+                            "render_method": "alpha_test",
+                            "tint_method": "default_foliage"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:water') == false && q.block_state('unusual_furniture:plant') == 0",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.crop.x"
+                    },
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "small_cattail",
+                            "render_method": "alpha_test"
+                        }
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -4,
+                            0,
+                            -4
+                        ],
+                        "size": [
+                            8,
+                            16,
+                            8
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:water') == false && q.block_state('unusual_furniture:plant') == 1",
+                "components": {
+                    "minecraft:geometry": {
+                        "identifier": "geometry.x_tall"
+                    },
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "large_cattail",
+                            "render_method": "alpha_test"
+                        }
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -4,
+                            0,
+                            -4
+                        ],
+                        "size": [
+                            8,
+                            16,
+                            8
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

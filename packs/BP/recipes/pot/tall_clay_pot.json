@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:tall_clay_pot"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:brick"
+      }
+    ],
+    "pattern": [
+      "S",
+      "S",
+      "S"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:brick"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:tall_clay_pot"
+    }
+  }
+}

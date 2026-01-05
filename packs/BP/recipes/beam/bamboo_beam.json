@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:bamboo_beam"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:stripped_bamboo_block"
+      }
+    ],
+    "pattern": [
+      "S",
+      "S"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stripped_bamboo_block"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:bamboo_beam",
+      "count": 8
+    }
+  }
+}

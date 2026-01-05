@@ -1,0 +1,42 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:iron_lamp"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:iron_bars"
+      },
+      {
+        "item": "minecraft:redstone_lamp"
+      },
+      {
+        "item": "unusual_furniture:screw"
+      }
+    ],
+    "pattern": [
+      "S",
+      "A",
+      "R"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:iron_ingot"
+      },
+      "A": {
+        "item": "minecraft:redstone_lamp"
+      },
+      "R": {
+        "item": "unusual_furniture:screw"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:iron_lamp",
+      "count": 2
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "unusual_furniture:pebble_bag",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:icon": "pebble_bag",
+      "minecraft:block_placer": {
+        "block": "unusual_furniture:pebble_bag_block"
+      }
+    }
+  }
+}

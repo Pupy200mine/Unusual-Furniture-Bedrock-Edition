@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:iron_beam"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "unusual_furniture:screw"
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "pattern": [
+      "A",
+      "S",
+      "A"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:iron_ingot"
+      },
+      "A": {
+        "item": "unusual_furniture:screw"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:iron_beam"
+    }
+  }
+}

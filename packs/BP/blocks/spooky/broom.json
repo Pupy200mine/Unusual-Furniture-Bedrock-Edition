@@ -1,0 +1,195 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "unusual_furniture:broom",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "unusual_furniture:state": [
+                    0,
+                    1,
+                    2
+                ]
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 180
+                }
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.unusual_furniture.broom",
+                "bone_visibility": {
+                    "normal": "query.block_state('unusual_furniture:state') == 0",
+                    "wall": "query.block_state('unusual_furniture:state') == 1",
+                    "ground": "query.block_state('unusual_furniture:state') == 2"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "broom",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:custom_components": [
+                "unusual_furniture:broom"
+            ],
+            "minecraft:flammable": true,
+            "minecraft:destructible_by_explosion": true,
+            "tag:minecraft:is_axe_item_destructible": {},
+            "tag:unusual_furniture:broom": {},
+            "minecraft:collision_box": {
+                "origin": [
+                    -2,
+                    0,
+                    -2
+                ],
+                "size": [
+                    4,
+                    16,
+                    4
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -2,
+                    0,
+                    -2
+                ],
+                "size": [
+                    4,
+                    16,
+                    4
+                ]
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('unusual_furniture:state') == 2",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -2,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            4,
+                            4,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -2,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            4,
+                            4,
+                            16
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            2,
+                            2,
+                            2
+                        ],
+                        "translation": [
+                            0,
+                            0.5,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ],
+                        "scale": [
+                            2,
+                            2,
+                            2
+                        ],
+                        "translation": [
+                            0,
+                            0.5,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ],
+                        "scale": [
+                            2,
+                            2,
+                            2
+                        ],
+                        "translation": [
+                            0,
+                            0.5,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ],
+                        "scale": [
+                            2,
+                            2,
+                            2
+                        ],
+                        "translation": [
+                            0,
+                            0.5,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

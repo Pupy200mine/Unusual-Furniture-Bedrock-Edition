@@ -1,0 +1,60 @@
+{
+    "format_version": "1.21.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "unusual_furniture:pebble_bag_block",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "unusual_furniture:type": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.unusual_furniture.pebble",
+                "bone_visibility": {
+                    "0": "q.block_state('unusual_furniture:type') == 0",
+                    "1": "q.block_state('unusual_furniture:type') == 1",
+                    "2": "q.block_state('unusual_furniture:type') == 2",
+                    "3": "q.block_state('unusual_furniture:type') == 3",
+                    "4": "q.block_state('unusual_furniture:type') == 4"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "pebbles",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:flammable": false,
+            "minecraft:destructible_by_explosion": true,
+            "minecraft:custom_components": [
+                "unusual_furniture:pebble_bag"
+            ],
+            "tag:minecraft:is_pickaxe_item_destructible": {},
+            "tag:unusual_furniture:pebble": {},
+            "minecraft:loot": "loot_tables/pebble_bag.json",
+            "tag:unusual_furniture:no_particles": {},
+            "minecraft:collision_box": false,
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    6,
+                    16
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:spruce_floor_lamp"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:torch"
+      },
+      {
+        "tag": "minecraft:wooden_slabs"
+      },
+      {
+        "item": "minecraft:paper"
+      },
+      {
+        "item": "unusual_furniture:screw"
+      }
+    ],
+    "pattern": [
+      " R ",
+      "SAS",
+      " B "
+    ],
+    "key": {
+      "R": {
+        "item": "unusual_furniture:screw"
+      },
+      "S": {
+        "item": "minecraft:paper"
+      },
+      "A": {
+        "item": "minecraft:torch"
+      },
+      "B": {
+        "tag": "minecraft:wooden_slabs"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:spruce_floor_lamp"
+    }
+  }
+}

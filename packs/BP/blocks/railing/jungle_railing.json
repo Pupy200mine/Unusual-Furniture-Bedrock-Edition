@@ -1,0 +1,119 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "unusual_furniture:jungle_railing",
+            "menu_category": {
+                "category": "construction"
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 180
+                }
+            },
+            "states": {
+                "unusual_furniture:up_right": [
+                    false,
+                    true
+                ],
+                "unusual_furniture:up_left": [
+                    false,
+                    true
+                ],
+                "unusual_furniture:down_right": [
+                    false,
+                    true
+                ],
+                "unusual_furniture:down_left": [
+                    false,
+                    true
+                ]
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.unusual_furniture.railing",
+                "bone_visibility": {
+                    "block": "!(q.block_state('unusual_furniture:up_left') || q.block_state('unusual_furniture:up_right') || q.block_state('unusual_furniture:down_left') || q.block_state('unusual_furniture:down_right'))",
+                    "down_stair": "q.block_state('unusual_furniture:up_right') && !q.block_state('unusual_furniture:down_left') && !q.block_state('unusual_furniture:up_left') && !q.block_state('unusual_furniture:down_right') && !q.block_state('unusual_furniture:up_left')",
+                    "down_stair_alt": "q.block_state('unusual_furniture:up_left') && !q.block_state('unusual_furniture:down_right') && !q.block_state('unusual_furniture:up_right') && !q.block_state('unusual_furniture:down_left') && !q.block_state('unusual_furniture:up_right')",
+                    "down_stair_both": "q.block_state('unusual_furniture:up_right') && q.block_state('unusual_furniture:up_left')",
+                    "stair": "q.block_state('unusual_furniture:down_left') && q.block_state('unusual_furniture:up_right')",
+                    "stair_alt": "q.block_state('unusual_furniture:down_right') && q.block_state('unusual_furniture:up_left')",
+                    "up_stair": "q.block_state('unusual_furniture:down_left') && !q.block_state('unusual_furniture:up_right') && !q.block_state('unusual_furniture:down_right')",
+                    "up_stair_alt": "q.block_state('unusual_furniture:down_right') && !q.block_state('unusual_furniture:up_left') && !q.block_state('unusual_furniture:down_left')",
+                    "up_stair_both": "q.block_state('unusual_furniture:down_right') && q.block_state('unusual_furniture:down_left')"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "jungle_coffee_table"
+                }
+            },
+            "minecraft:flammable": true,
+            "minecraft:destructible_by_explosion": true,
+            "tag:minecraft:is_axe_item_destructible": {},
+            "tag:unusual_furniture:railing": {},
+            "minecraft:custom_components": [
+                "unusual_furniture:railing"
+            ],
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -4
+                ],
+                "size": [
+                    16,
+                    16,
+                    8
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -4
+                ],
+                "size": [
+                    16,
+                    16,
+                    8
+                ]
+            },
+            "tag:unusual_furniture:no_particles": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north' || q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west' || q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

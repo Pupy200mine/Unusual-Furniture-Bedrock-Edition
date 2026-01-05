@@ -1,0 +1,65 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unusual_furniture.ceiling_lamp_visual",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "lamp",
+					"pivot": [0, 7, 0],
+					"cubes": [
+						{
+							"origin": [-8, 7, -8],
+							"size": [16, 5, 16],
+							"uv": {
+								"north": {"uv": [16, 16], "uv_size": [16, 5]},
+								"east": {"uv": [0, 16], "uv_size": [16, 5]},
+								"south": {"uv": [48, 16], "uv_size": [16, 5]},
+								"west": {"uv": [32, 16], "uv_size": [16, 5]},
+								"up": {"uv": [16, 0], "uv_size": [16, 16]},
+								"down": {"uv": [32, 16], "uv_size": [16, -16]}
+							}
+						},
+						{
+							"origin": [-5, 12, -5],
+							"size": [10, 4, 10],
+							"uv": {
+								"north": {"uv": [10, 31], "uv_size": [10, 4]},
+								"east": {"uv": [0, 31], "uv_size": [10, 4]},
+								"south": {"uv": [30, 31], "uv_size": [10, 4]},
+								"west": {"uv": [20, 31], "uv_size": [10, 4]},
+								"up": {"uv": [10, 21], "uv_size": [10, 10]},
+								"down": {"uv": [20, 31], "uv_size": [10, -10]}
+							}
+						}
+					]
+				},
+				{
+					"name": "light",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5, 0, -5],
+							"size": [10, 7, 10],
+							"pivot": [0, 0, 0],
+							"rotation": [0, 180, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [64, 64], "material_instance": "light"},
+								"east": {"uv": [0, 0], "uv_size": [64, 64], "material_instance": "light"},
+								"south": {"uv": [0, 0], "uv_size": [64, 64], "material_instance": "light"},
+								"west": {"uv": [0, 0], "uv_size": [64, 64], "material_instance": "light"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

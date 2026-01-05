@@ -1,0 +1,7 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "carved_spruce",
+		"metalness_emissive_roughness": "carved_spruce_mer"
+	}
+}

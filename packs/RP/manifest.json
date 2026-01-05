@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"To0pa, Pupy200mine"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.48"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			21,
+			80
+		],
+		"uuid": "a6b6fd37-f4f5-436c-8578-9a8e96d83bc8",
+		"version": [
+			1,
+			4,
+			3
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "2ec5e7e6-0bf8-4eb7-9d34-1415c94c189c",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

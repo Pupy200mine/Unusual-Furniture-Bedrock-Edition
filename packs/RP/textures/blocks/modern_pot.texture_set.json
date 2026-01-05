@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "modern_pot",
+		"metalness_emissive_roughness": "modern_pot_mer",
+		"heightmap": "modern_pot_height"
+	}
+}

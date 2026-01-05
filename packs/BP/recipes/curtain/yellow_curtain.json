@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:yellow_curtain"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:yellow_wool"
+      },
+      {
+        "item": "minecraft:stick"
+      }
+    ],
+    "pattern": [
+      "A",
+      "S"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:stick"
+      },
+      "S": {
+        "item": "minecraft:yellow_wool"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:yellow_curtain",
+      "count": 4
+    }
+  }
+}

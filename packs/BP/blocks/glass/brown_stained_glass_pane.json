@@ -1,0 +1,420 @@
+{
+    "format_version": "1.21.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "unusual_furniture:brown_stained_glass_pane",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "unusual_furniture:north": [
+                    false,
+                    true
+                ],
+                "unusual_furniture:south": [
+                    false,
+                    true
+                ],
+                "unusual_furniture:east": [
+                    false,
+                    true
+                ],
+                "unusual_furniture:west": [
+                    false,
+                    true
+                ]
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.unusual_furniture.glass_pane",
+                "bone_visibility": {
+                    "lonely": "!q.block_state('unusual_furniture:north') && !q.block_state('unusual_furniture:south') && !q.block_state('unusual_furniture:east') && !q.block_state('unusual_furniture:west')",
+                    "north": "q.block_state('unusual_furniture:north') && !q.block_state('unusual_furniture:south') && !q.block_state('unusual_furniture:east') && !q.block_state('unusual_furniture:west')",
+                    "south": "!q.block_state('unusual_furniture:north') && q.block_state('unusual_furniture:south') && !q.block_state('unusual_furniture:east') && !q.block_state('unusual_furniture:west')",
+                    "east": "!q.block_state('unusual_furniture:north') && !q.block_state('unusual_furniture:south') && q.block_state('unusual_furniture:east') && !q.block_state('unusual_furniture:west')",
+                    "west": "!q.block_state('unusual_furniture:north') && !q.block_state('unusual_furniture:south') && !q.block_state('unusual_furniture:east') && q.block_state('unusual_furniture:west')",
+                    "north_south": "q.block_state('unusual_furniture:north') && q.block_state('unusual_furniture:south') && !q.block_state('unusual_furniture:east') && !q.block_state('unusual_furniture:west')",
+                    "east_west": "!q.block_state('unusual_furniture:north') && !q.block_state('unusual_furniture:south') && q.block_state('unusual_furniture:east') && q.block_state('unusual_furniture:west')",
+                    "north_east_west": "q.block_state('unusual_furniture:north') && !q.block_state('unusual_furniture:south') && q.block_state('unusual_furniture:east') && q.block_state('unusual_furniture:west')",
+                    "north_south_west": "q.block_state('unusual_furniture:north') && q.block_state('unusual_furniture:south') && !q.block_state('unusual_furniture:east') && q.block_state('unusual_furniture:west')",
+                    "south_east_west": "!q.block_state('unusual_furniture:north') && q.block_state('unusual_furniture:south') && q.block_state('unusual_furniture:east') && q.block_state('unusual_furniture:west')",
+                    "north_south_east": "q.block_state('unusual_furniture:north') && q.block_state('unusual_furniture:south') && q.block_state('unusual_furniture:east') && !q.block_state('unusual_furniture:west')",
+                    "north_west": "q.block_state('unusual_furniture:north') && !q.block_state('unusual_furniture:south') && !q.block_state('unusual_furniture:east') && q.block_state('unusual_furniture:west')",
+                    "south_west": "!q.block_state('unusual_furniture:north') && q.block_state('unusual_furniture:south') && !q.block_state('unusual_furniture:east') && q.block_state('unusual_furniture:west')",
+                    "south_east": "!q.block_state('unusual_furniture:north') && q.block_state('unusual_furniture:south') && q.block_state('unusual_furniture:east') && !q.block_state('unusual_furniture:west')",
+                    "north_east": "q.block_state('unusual_furniture:north') && !q.block_state('unusual_furniture:south') && q.block_state('unusual_furniture:east') && !q.block_state('unusual_furniture:west')"
+                }
+            },
+            "minecraft:item_visual": {
+                "geometry": "geometry.unusual_furniture.glass_pane_visual",
+                "material_instances": {
+                    "*": {
+                        "texture": "glass_brown",
+                        "render_method": "blend"
+                    }
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "glass_brown",
+                    "render_method": "blend"
+                },
+                "up": {
+                    "texture": "glass_pane_top_brown",
+                    "render_method": "blend"
+                },
+                "down": {
+                    "texture": "glass_pane_top_brown",
+                    "render_method": "blend"
+                }
+            },
+            "minecraft:custom_components": [
+                "unusual_furniture:glass"
+            ],
+            "minecraft:tick": {
+                "interval_range": [
+                    1,
+                    1
+                ],
+                "looping": true
+            },
+            "tag:unusual_furniture:no_particles": {},
+            "minecraft:flammable": false,
+            "minecraft:destructible_by_explosion": true,
+            "minecraft:loot": "loot_tables/empty.json",
+            "tag:unusual_furniture:glass_pane": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.35
+            }
+        },
+        "permutations": [
+            {
+                "condition": "!q.block_state('unusual_furniture:north') && !q.block_state('unusual_furniture:south') && !q.block_state('unusual_furniture:east') && !q.block_state('unusual_furniture:west')",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -1,
+                            0,
+                            -1
+                        ],
+                        "size": [
+                            2,
+                            16,
+                            2
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -1,
+                            0,
+                            -1
+                        ],
+                        "size": [
+                            2,
+                            16,
+                            2
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:north') && !q.block_state('unusual_furniture:south') && !q.block_state('unusual_furniture:east') && !q.block_state('unusual_furniture:west')",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -1,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            2,
+                            16,
+                            9
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -1,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            2,
+                            16,
+                            9
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "!q.block_state('unusual_furniture:north') && q.block_state('unusual_furniture:south') && !q.block_state('unusual_furniture:east') && !q.block_state('unusual_furniture:west')",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -1,
+                            0,
+                            -1
+                        ],
+                        "size": [
+                            2,
+                            16,
+                            9
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -1,
+                            0,
+                            -1
+                        ],
+                        "size": [
+                            2,
+                            16,
+                            9
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "!q.block_state('unusual_furniture:north') && !q.block_state('unusual_furniture:south') && q.block_state('unusual_furniture:east') && !q.block_state('unusual_furniture:west')",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -1,
+                            0,
+                            -1
+                        ],
+                        "size": [
+                            9,
+                            16,
+                            2
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -1,
+                            0,
+                            -1
+                        ],
+                        "size": [
+                            9,
+                            16,
+                            2
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "!q.block_state('unusual_furniture:north') && !q.block_state('unusual_furniture:south') && !q.block_state('unusual_furniture:east') && q.block_state('unusual_furniture:west')",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -1
+                        ],
+                        "size": [
+                            9,
+                            16,
+                            2
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -1
+                        ],
+                        "size": [
+                            9,
+                            16,
+                            2
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:north') && q.block_state('unusual_furniture:south') && !q.block_state('unusual_furniture:east') && !q.block_state('unusual_furniture:west')",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -1,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            2,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -1,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            2,
+                            16,
+                            16
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "!q.block_state('unusual_furniture:north') && !q.block_state('unusual_furniture:south') && q.block_state('unusual_furniture:east') && q.block_state('unusual_furniture:west')",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -1
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            2
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -1
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            2
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:north') && q.block_state('unusual_furniture:south') && q.block_state('unusual_furniture:east') && q.block_state('unusual_furniture:west')",
+                "components": {
+                    "minecraft:collision_box": true,
+                    "minecraft:selection_box": true
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:north') && q.block_state('unusual_furniture:south') && q.block_state('unusual_furniture:east') && !q.block_state('unusual_furniture:west')",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -1,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            9,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -1,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            9,
+                            16,
+                            16
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:north') && !q.block_state('unusual_furniture:south') && q.block_state('unusual_furniture:east') && q.block_state('unusual_furniture:west')",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            9
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            9
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:north') && q.block_state('unusual_furniture:south') && !q.block_state('unusual_furniture:east') && q.block_state('unusual_furniture:west')",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            9,
+                            16,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            9,
+                            16,
+                            16
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "!q.block_state('unusual_furniture:north') && q.block_state('unusual_furniture:south') && q.block_state('unusual_furniture:east') && q.block_state('unusual_furniture:west')",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -1
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            9
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            0,
+                            -1
+                        ],
+                        "size": [
+                            16,
+                            16,
+                            9
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

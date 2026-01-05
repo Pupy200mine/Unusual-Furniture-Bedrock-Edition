@@ -1,0 +1,185 @@
+{
+    "format_version": "1.21.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "unusual_furniture:iron_lamp",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "unusual_furniture:light": [
+                    false,
+                    true
+                ],
+                "unusual_furniture:lonely": [
+                    true,
+                    false
+                ],
+                "unusual_furniture:north": [
+                    false,
+                    true
+                ],
+                "unusual_furniture:south": [
+                    false,
+                    true
+                ],
+                "unusual_furniture:east": [
+                    false,
+                    true
+                ],
+                "unusual_furniture:west": [
+                    false,
+                    true
+                ]
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:block_face"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.unusual_furniture.metal_lamp",
+                "bone_visibility": {
+                    "lonely": "q.block_state('unusual_furniture:lonely') == true",
+                    "floor": "q.block_state('unusual_furniture:lonely') == false && q.block_state('minecraft:block_face') == 'up'",
+                    "wall": "q.block_state('unusual_furniture:lonely') == false && (q.block_state('unusual_furniture:north') == true && q.block_state('minecraft:block_face') == 'south') || (q.block_state('unusual_furniture:south') == true && q.block_state('minecraft:block_face') == 'north') || (q.block_state('unusual_furniture:east') == true && q.block_state('minecraft:block_face') == 'west') || (q.block_state('unusual_furniture:west') == true && q.block_state('minecraft:block_face') == 'east')"
+                }
+            },
+            "minecraft:item_visual": {
+                "geometry": "geometry.unusual_furniture.metal_lamp_visual",
+                "material_instances": {
+                    "*": {
+                        "texture": "street_lamps_off",
+                        "render_method": "blend"
+                    }
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "street_lamps_off",
+                    "render_method": "blend"
+                }
+            },
+            "minecraft:flammable": false,
+            "minecraft:destructible_by_explosion": true,
+            "tag:minecraft:is_pickaxe_item_destructible": {},
+            "minecraft:custom_components": [
+                "unusual_furniture:metal_lamp"
+            ],
+            "minecraft:tick": {
+                "interval_range": [
+                    20,
+                    20
+                ],
+                "looping": true
+            },
+            "tag:unusual_furniture:metal_lamp": {},
+            "tag:unusual_furniture:no_particles": {},
+            "minecraft:collision_box": {
+                "origin": [
+                    -5,
+                    4,
+                    -5
+                ],
+                "size": [
+                    10,
+                    12,
+                    10
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -5,
+                    4,
+                    -5
+                ],
+                "size": [
+                    10,
+                    12,
+                    10
+                ]
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('unusual_furniture:light') == true",
+                "components": {
+                    "minecraft:light_emission": 15,
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "street_lamps",
+                            "render_method": "blend"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:light') == false",
+                "components": {
+                    "minecraft:light_emission": 0,
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "street_lamps_off",
+                            "render_method": "blend"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'north' ",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

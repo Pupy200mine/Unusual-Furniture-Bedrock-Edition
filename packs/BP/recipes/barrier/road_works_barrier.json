@@ -1,0 +1,48 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:road_works_barrier"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:black_dye"
+      },
+      {
+        "item": "unusual_furniture:screw"
+      },
+      {
+        "item": "minecraft:yellow_dye"
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "pattern": [
+      "RAR",
+      "SBS",
+      "B B"
+    ],
+    "key": {
+      "R": {
+        "item": "minecraft:black_dye"
+      },
+      "A": {
+        "item": "minecraft:yellow_dye"
+      },
+      "B": {
+        "item": "minecraft:iron_ingot"
+      },
+      "S": {
+        "item": "unusual_furniture:screw"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:road_works_barrier",
+      "count": 4
+    }
+  }
+}

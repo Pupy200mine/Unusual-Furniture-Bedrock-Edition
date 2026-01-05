@@ -1,0 +1,242 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "unusual_furniture:floor_lamp_decoration_villager",
+            "menu_category": {
+                "category": "construction"
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 180
+                }
+            },
+            "states": {
+                "unusual_furniture:variant": {
+                    "values": {
+                        "min": 0,
+                        "max": 2
+                    }
+                }
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.unusual_furniture.floor_lamp_decoration_villager",
+                "bone_visibility": {
+                    "0": "query.block_state('unusual_furniture:variant') == 0",
+                    "1": "query.block_state('unusual_furniture:variant') == 1",
+                    "2": "query.block_state('unusual_furniture:variant') == 2"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "floor_lamp_decoration_villager",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:flammable": false,
+            "minecraft:destructible_by_explosion": true,
+            "tag:minecraft:is_axe_item_destructible": {},
+            "minecraft:custom_components": [
+                "unusual_furniture:bat_lamp"
+            ],
+            "tag:unusual_furniture:lamp_villager": {},
+            "tag:unusual_furniture:no_particles": {},
+            "minecraft:collision_box": {
+                "origin": [
+                    -1.5,
+                    4,
+                    -7.5
+                ],
+                "size": [
+                    3,
+                    7,
+                    9
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -1.5,
+                    4,
+                    -7.5
+                ],
+                "size": [
+                    3,
+                    7,
+                    9
+                ]
+            },
+            "minecraft:transformation": {
+                "scale": [
+                    2,
+                    2,
+                    2
+                ]
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "scale": [
+                            2,
+                            2,
+                            2
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ],
+                        "scale": [
+                            2,
+                            2,
+                            2
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ],
+                        "scale": [
+                            2,
+                            2,
+                            2
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ],
+                        "scale": [
+                            2,
+                            2,
+                            2
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:variant') == 0",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -1.5,
+                            4,
+                            -7.5
+                        ],
+                        "size": [
+                            3,
+                            7,
+                            9
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -1.5,
+                            4,
+                            -7.5
+                        ],
+                        "size": [
+                            3,
+                            7,
+                            9
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:variant') == 1",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            4,
+                            -1.5
+                        ],
+                        "size": [
+                            16,
+                            7,
+                            3
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            4,
+                            -1.5
+                        ],
+                        "size": [
+                            16,
+                            7,
+                            3
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:variant') == 2",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -8,
+                            4,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            7,
+                            16
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -8,
+                            4,
+                            -8
+                        ],
+                        "size": [
+                            16,
+                            7,
+                            16
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

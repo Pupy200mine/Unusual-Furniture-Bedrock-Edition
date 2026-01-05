@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:large_hanging_pot"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:brick"
+      },
+      {
+        "item": "minecraft:string"
+      }
+    ],
+    "pattern": [
+      " A ",
+      "SSS",
+      " S "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:brick"
+      },
+      "A": {
+        "item": "minecraft:string"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:large_hanging_pot"
+    }
+  }
+}

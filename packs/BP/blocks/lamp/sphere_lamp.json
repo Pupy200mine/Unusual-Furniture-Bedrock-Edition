@@ -1,0 +1,151 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "unusual_furniture:sphere_lamp",
+            "menu_category": {
+                "category": "construction"
+            },
+            "states": {
+                "unusual_furniture:light": [
+                    false,
+                    true
+                ]
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:block_face"
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:geometry": {
+                "identifier": "geometry.unusual_furniture.sphere_lamp"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "street_lamps_off",
+                    "render_method": "blend"
+                }
+            },
+            "minecraft:flammable": false,
+            "minecraft:destructible_by_explosion": true,
+            "tag:minecraft:is_pickaxe_item_destructible": {},
+            "minecraft:custom_components": [
+                "unusual_furniture:metal_lamp"
+            ],
+            "minecraft:tick": {
+                "interval_range": [
+                    100,
+                    100
+                ],
+                "looping": true
+            },
+            "tag:unusual_furniture:metal_lamp": {},
+            "tag:unusual_furniture:no_particles": {},
+            "minecraft:collision_box": {
+                "origin": [
+                    -5,
+                    0,
+                    -5
+                ],
+                "size": [
+                    10,
+                    11,
+                    10
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -5,
+                    0,
+                    -5
+                ],
+                "size": [
+                    10,
+                    11,
+                    10
+                ]
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1.5
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('unusual_furniture:light') == true",
+                "components": {
+                    "minecraft:light_emission": 15,
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "street_lamps",
+                            "render_method": "blend"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('unusual_furniture:light') == false",
+                "components": {
+                    "minecraft:light_emission": 0,
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "street_lamps_off",
+                            "render_method": "blend"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            270,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            90
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            90,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            270
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

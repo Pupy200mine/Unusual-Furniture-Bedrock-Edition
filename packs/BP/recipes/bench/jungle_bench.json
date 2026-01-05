@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:jungle_bench"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:jungle_planks"
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "pattern": [
+      "P  ",
+      "PAP",
+      "P P"
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:jungle_planks"
+      },
+      "A": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:jungle_bench",
+      "count": 2
+    }
+  }
+}

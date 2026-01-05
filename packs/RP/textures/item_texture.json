@@ -1,0 +1,51 @@
+{
+    "resource_pack_name": "bridgeRP",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "discord": {
+            "textures": [
+                "textures/items/discord"
+            ]
+        },
+        "mushroom_patch": {
+            "textures": [
+                "textures/items/mushroom_patch"
+            ]
+        },
+        "pebble_bag": {
+            "textures": [
+                "textures/items/pebble_bag"
+            ]
+        },
+        "poster2": {
+            "textures": [
+                "textures/items/poster2"
+            ]
+        },
+        "screw": {
+            "textures": [
+                "textures/items/screw"
+            ]
+        },
+        "tropical_plant_bag": {
+            "textures": [
+                "textures/items/tropical_plant_bag"
+            ]
+        },
+        "unusual_furniture_book": {
+            "textures": [
+                "textures/items/unusual_furniture_book"
+            ]
+        },
+        "unusual_furniture_recipes_book": {
+            "textures": [
+                "textures/items/unusual_furniture_recipes_book"
+            ]
+        },
+        "water_plant_bag": {
+            "textures": [
+                "textures/items/water_plant_bag"
+            ]
+        }
+    }
+}

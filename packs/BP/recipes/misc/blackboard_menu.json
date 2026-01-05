@@ -1,0 +1,41 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:blackboard_menu"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:cobbled_deepslate_slab"
+      },
+      {
+        "item": "minecraft:stick"
+      },
+      {
+        "item": "unusual_furniture:screw"
+      }
+    ],
+    "pattern": [
+      "RAR",
+      "SAS",
+      "S S"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "A": {
+        "item": "minecraft:cobbled_deepslate_slab"
+      },
+      "R": {
+        "item": "unusual_furniture:screw"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:blackboard_menu"
+    }
+  }
+}

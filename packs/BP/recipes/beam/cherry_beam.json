@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "unusual_furniture:cherry_beam"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:stripped_cherry_log"
+      }
+    ],
+    "pattern": [
+      "S",
+      "S"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stripped_cherry_log"
+      }
+    },
+    "result": {
+      "item": "unusual_furniture:cherry_beam",
+      "count": 8
+    }
+  }
+}
